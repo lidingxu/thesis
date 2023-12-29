@@ -1,0 +1,34 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces PWL approximation of nonconvex sets.\relax }}{31}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An $\mathcal S$-free set $\mathcal C$.\relax }}{32}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An $\mathcal S$-free set $\mathcal C$, simplicial cone $\mathcal R$, and intersection cut.\relax }}{33}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces a Boolean cube $\mathcal B= \{0,1\}^3$ \textcopyright \xspace \cite {pict}\relax }}{47}{figure.caption.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces $\mathcal S_{\mathrm {st}}$-free sets.\relax }}{59}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Two examples of $\mathcal S_{\mathrm {st}}$ and $\mathcal S_{\mathrm {st}}$-free sets.\relax }}{59}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Scatter plots of \textsc {max cut}\xspace results in standalone (top) and embedded (bottom) configurations\relax }}{79}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Scatter plots of \textsc {pseudo Boolean maximization}\xspace results in standalone (top) and embedded (bottom) configurations\relax }}{80}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Scatter plots of \textsc {Bayesian D-optimal design}\xspace results in standalone (top) and embedded (bottom) configurations\relax }}{82}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Scatter of \textsc {max cut}\xspace -sub results in the embedded branch-and-bound test\relax }}{84}{figure.caption.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Graphs of the quadratic and its PWL over-estimator\relax }}{100}{figure.caption.27}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Interference model\relax }}{120}{figure.caption.34}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Network coding\relax }}{121}{figure.caption.35}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces \(G\) and \(EG\)\relax }}{131}{figure.caption.44}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces \(\pi ^{-1}\) does not preserve the acyclicity from \(EG\) to \(G\)\relax }}{132}{figure.caption.45}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Paths diverge at \(i\) and \(k\)\relax }}{138}{figure.caption.46}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Two cycle coverage points with respect to a cycle $C$ of five nodes\relax }}{148}{figure.caption.51}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces An instance of CSCP such that not all facilities in $\mathcal {P}^*$ are at a distance $\delta $ from some node\relax }}{150}{figure.caption.52}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Covering of an edge $e=(v_a,v_b)\in E$\relax }}{154}{figure.caption.53}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Illustration of valid inequalities \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {valid-deg2}\unskip \@@italiccorr )}}\relax }}{164}{figure.caption.57}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Illustration of valid inequalities \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {ineq-neigh}\unskip \@@italiccorr )}}\relax }}{165}{figure.caption.59}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Illustration of \Cref {prop:broken-valid} for a long edge $e$\relax }}{170}{figure.caption.61}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Scatter plots of the relative dual gaps and the relative primal bounds between different settings\relax }}{179}{figure.caption.64}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Scatter plots of the relative dual gaps and the relative primal bounds between \textbf {SFD} and \textbf {RF}\relax }}{180}{figure.caption.65}%
+\addvspace {10\p@ }

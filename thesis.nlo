@@ -1,0 +1,42 @@
+\nomenclatureentry{a-bZ$\bZ$@[{$\bZ$}]\begingroup integer numbers\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{a-bQ$\bQ$@[{$\bQ$}]\begingroup rational numbers\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{a-bR$\bR$@[{$\bR$}]\begingroup real numbers\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{r-j$i$@[{$i$}]\begingroup superscript index\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{s-j$j$@[{$j$}]\begingroup subscript index\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-oneall$\mathbf{1}$@[{$\mathbf{1}$}]\begingroup the all-one vector\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-onej$\mathbf{1}_j$@[{$\mathbf{1}_j$}]\begingroup the j-th unit vector\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-onezeo$\mathbf{0}$@[{$\mathbf{0}$}]\begingroup the all-zero vector\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-set$[n]$@[{$[n]$}]\begingroup $\{1,\dots,n\}$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-set2$[n:n']$@[{$[n:n']$}]\begingroup $\{n,\dots,n'\}$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-setabr$\cN$@[{$\cN$}]\begingroup abbreviation for $[n]$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-preceq$\preceq$@[{$\preceq$}]\begingroup partial order\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-conv$\conv(\cdot)$@[{$\conv(\cdot)$}]\begingroup convex hull of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-int$\inter(\cdot)$@[{$\inter(\cdot)$}]\begingroup interior of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-relint$\relinter(\cdot)$@[{$\relinter(\cdot)$}]\begingroup relative interior of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-bd$\bd(\cdot)$@[{$\bd(\cdot)$}]\begingroup boundary of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-relbd$\relbd(\cdot)$@[{$\relbd(\cdot)$}]\begingroup relative boundary of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-comple$\cdot^c$@[{$\cdot^c$}]\begingroup complementary of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-card$|\cdot|$@[{$|\cdot|$}]\begingroup cardinality of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-L1$L_1$@[{$L_1$}]\begingroup $L_1$ norm\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-Linf$L_\infty$@[{$L_\infty$}]\begingroup $L_\infty$ norm\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-norm$\norm{x}$@[{$\norm{x}$}]\begingroup norm of $x$ (according to the context)\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-epi$\epi(\cdot)$@[{$\epi(\cdot)$}]\begingroup epigraph of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-hyp$\hyp(\cdot)$@[{$\hyp(\cdot)$}]\begingroup hypograph of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-gr$\gr(\cdot)$@[{$\gr(\cdot)$}]\begingroup graph of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-rang$\rang(\cdot)$@[{$\rang(\cdot)$}]\begingroup range of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-rang$\dom(\cdot)$@[{$\dom(\cdot)$}]\begingroup domain of $\cdot$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{x-concat$(a,b)$@[{$(a,b)$}]\begingroup the concatenation of $a,b$\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-MILPMILP@[{MILP}]\begingroup Mixed Integer Linear Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-MINLPMINLP@[{MINLP}]\begingroup Mixed Integer Nonlinear Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-MBQCPMBQCP@[{MBQCP}]\begingroup Mixed-Binary Quadratically Constrained Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-LPLP@[{LP}]\begingroup Linear Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-NLPNLP@[{NLP}]\begingroup Nonlinear Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-SDPSDP@[{SDP}]\begingroup Semi-definite Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-PPPP@[{PP}]\begingroup Polynomial Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-SPSP@[{SP}]\begingroup Signomial Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-BPPBPP@[{BPP}]\begingroup Binary Polynomial Programming\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-BPOBPO@[{BPO}]\begingroup Binary Polynomial Optimization\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-SOSSOS@[{SOS}]\begingroup Sum of Squares\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-SOBFPSOBFP@[{SOBFP}]\begingroup Sum of Bound Factor Products\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-CSCPCSCP@[{CSCP}]\begingroup Continuous Set-Covering Problem\nomeqref {0}|nompageref}{xx}
+\nomenclatureentry{z-DWDW@[{DW}]\begingroup Dantzig-Wolfe\nomeqref {0}|nompageref}{xx}

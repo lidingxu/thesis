@@ -1,0 +1,86 @@
+\chapter{Conclusions and perspective}
+\label{chap.con}
+
+
+This chapter summarizes the key findings of this thesis. Towards the conclusion of this chapter, we delve into the perspectives of this thesis work, discussing its potential for uncovering novel applications across diverse domains and its possible avenues for further development.
+
+
+\subsection{Conclusions}
+
+Within the scope of this thesis, we focus on the examination of relaxation techniques tailored for challenging MINLP problems. Our approach revolves around a structural exploration of effective relaxation strategies suitable for a variety of problem types. In the introductory section, we introduce a comprehensive list of relaxation methods drawn from existing literature. These encompass a range of approaches, such as relaxations stemming from extended formulations, submodularity-based relaxations, PWL relaxations, and intersection cuts. Additionally, we introduce advanced relaxation techniques that build upon intersection cuts and submodularity. These relaxation tools are then employed to address various real-world applications.
+
+
+
+
+Our computational findings demonstrate that enhancing relaxation methods can lead to accelerated performance in exact MINLP solvers. These enhancements are primarily effective for a specific subset of MINLP problems, given that our relaxations are tailored to the structural characteristics of such problems. Furthermore, our relaxation methods are highly adaptable, with the ability to be activated or deactivated through the structural detection functions integrated into MINLP solvers. This adaptability facilitates the seamless integration of relaxation methods within the sBB algorithmic framework. As a result, the research on MINLP becomes more accessible, as even a modest enhancement in relaxation methods can serve as a foundational component for future studies.
+
+
+
+
+It is worth noting that the techniques we present primarily facilitate exact solutions for MINLP problems, albeit at the expense of increased computation time. Consequently, our relaxation methods find their ideal application in static scenarios where problems are solved offline, with a primary focus on achieving high accuracy. In such settings, these relaxation methods function as core algorithms within MINLP solvers, akin to the role of propagation in constraint programming \cite{achterberg2008constraint}. 
+
+It is important to recognize that relaxation methods belong to a broader category of approximation methods. While relaxation methods do not directly yield solutions, approximation methods are geared towards delivering approximated solutions within a reasonable time. In this context, approximation methods are considered front-end framework, as exact MINLP solvers, commonly called upon by users instead of relaxation methods. As a result, relaxation methods can be viewed as the backends of many approximation techniques.
+
+
+
+In recent times, the field of MINLP research has encountered several challenges arising from factors such as the emergence of deep learning techniques, the prevalence of large-scale problems, and the inherent dynamics and uncertainties present in mathematical models. Additionally, a frequently overlooked challenge for MINLP research lies in the legacy aspects of its ecosystem. In the subsequent sections, we outline two primary research directions aimed at tackling these challenges.
+
+\section{Perspectives in algorithm design}
+
+
+The historical influence of MILP techniques might contribute to the existing legacy within the MINLP ecosystem. However, the applicability of these techniques to MINLP problems is still an active research area. In the subsequent sections, we conduct a comprehensive survey of open problems and associated research perspectives. These problems expand the scope of MINLP within the wider realm of mathematical optimization.
+
+
+\subsection{Extended formulations vs projected formulations}
+The prevalent choice among mathematical solvers is to embrace projected formulations of the underlying relaxations, as opposed to extended formulations. This preference can be attributed to several factors. Firstly, these relaxations, notably linear programming (LP) relaxations, can be progressively enhanced by cutting planes, thus offering a straightforward means of controlling relaxation size. Secondly, it is noteworthy, that while an extended formulation with a polynomial-size may exist, it could correspond to an exponentially sized projected formulation. Nonetheless, the practical utilization of extended formulations necessitates a predetermined design to balance the trade-off involving model size and the strength of the model. An open question or ongoing debate centers around the applicability of extended formulations.
+
+
+The preference over projected formulations could potentially face constraints stemming from computational resources. Given the prevailing capabilities of contemporary computers, there arises an opportunity to reevaluate the applicability of extended formulations. Recent progress in polynomial programming research has unveiled a range of attractive extended formulations, such as the sparse Lasserre hierarchy and relative entropy relaxations \cite{murray2021signomial}. These novel extended formulations introduce a degree of flexibility in representing polynomial optimization.
+
+
+
+
+
+An approach for integrating extended formulations into solvers involves the dynamic resolution of extended formulations at specific nodes within the branch-and-bound tree. Furthermore, at a given search node, the extended formulations might be adaptively lifted, albeit at the cost of computational resources. The determination of whether to enhance these formulations is intrinsically linked to optimization theory. A comparable challenge is encountered in the context of facial reduction for semi-definite programming, which can be seen as the endeavor to identify a suitable basis for the sum-of-squares representation of a polynomial.
+
+
+\subsection{Modeling power: the lack of convexity and nonlinear function types}
+
+
+
+In the realm of MINLP, the central challenge is tackling non-convex optimization problems, although the methods deployed often hinge upon convex optimization. Particularly within the MINLP landscape, the foundational algorithmic framework rests upon the utilization of convex relaxations.
+
+Yet, the majority of optimization solvers remain firmly rooted in LP relaxations.   Particularly, the MINLP solver Mosek can address conic programming problems. Its  reference book \cite{aps2018mosek} lists several essential cones, and the solver is capable of representing a significant portion of convex  sets through compositional operations. However, it is noteworthy that the study of these fundamental cones and their optimization attributes largely predates the 2000s. 
+
+
+We aim to remain attuned to emerging application trends, uncovering novel function types that have the potential for significant impact. Pursuing this research direction has the potential to substantially expand the modeling power of solvers, enabling them to tackle a broader range of optimization challenges.
+
+This apparent lack of basic convexity types could be attributed to the inherent lack of elementary functions - the sources of non-convexity - which include polynomial, rational, trigonometric, hyperbolic, and exponential functions, possibly including their inverse counterparts. The limitations of the available convexity forms pose a problem for the modelling power of MINLP solvers.
+
+Most MINLP solvers can effectively handle factorizable functions and essentially work as composite functions. An ongoing research attempt is to extend their capacities to handle the demands of modern deep neural networks, which often involve a larger number of relatively simple layers. Several MINLP based approaches \cite{tsay2021partition,tjandraatmadja2020convex,zhang2023optimizing} are proposed for improving neural networks. A novel approach \cite{baudart2021pipeline,ceccon2022omlt}  addresses the challenges of progressively modeling and optimizing for auto machine learning. This perspective aligns closely with a contemporary principle in modern machine learning: the fusion of modeling and optimization. Thus, this perspective  can inspire the feature design of MINLP solvers.
+
+
+Convex functions are fertile ground for ongoing research and offer numerous avenues for exploration. While conventional nonlinear functions are usually defined over scalar variables, a promising direction is to consider functions defined over cones, such as convex functions defined over positive-definite matrices. An abundance of such functions can be discovered in quantum information, since quantum states can be aptly represented by probability-dense matrices—complex positive-definite matrices with unit trace. It is worth noting, however, that despite the richness of this field, the current focus of research efforts is on efficient convex optimization techniques rather than global optimization, primarily due to the scale of dense matrices.
+
+Our goal is to keep pace with emerging trends in applications and discover new types of features that are likely to have a significant impact. Pursuing this line of research has the potential to significantly expand the modelling power of solvers and enable them to handle a broader range of optimization tasks.
+
+\subsection{Approximations vs. relaxations}
+
+Throughout history, the problem domains studied in MILP and combinatorial optimization have overlapped considerably, which has fostered a continuous exchange of ideas and knowledge. One particularly common and widely used technique is that of relaxations. These relaxations act as mediators within algorithms to achieve a feasible solution.
+
+A variety of approximation algorithms in combinatorial optimization, for example, solve relaxations to derive solutions that guarantee optimality. Many of these algorithms were developed for theoretical studies, so they guarantee worst-case performance, but in practice they may perform poorly. In contrast, in the MILP domain, relaxation methods are often integrated into the branch-and-bound search framework, with the relaxation solutions serving as the starting point for heuristics. Exact MILP solvers generally provide optimal solutions to many practical problems within a reasonable time.
+It should be noted, however, that in the field of combinatorial optimization there are approximation algorithms or heuristics based on structural techniques that go beyond simple relaxation. This raises an intriguing question: Can these alternative techniques be used in the context of MINLP? For example, although there are many tailored convex optimization algorithms, convex relaxations in MINLP solvers are mainly based on primal-dual interior point solvers. Integrating these tailored algorithms to take over specific tasks in MINLP solving, such as preprocessing, could be considered as a possible research direction.
+
+\section{Perspectives of solver framework}
+
+The inherent legacy of the MINLP ecosystem may also stem from earlier software systems efforts. These systems, while valuable, often present challenges to new software developers and emerging researchers. The complexity associated with these systems hinders adoption of recent advances in software engineering and innovations in programming languages.
+The use of the C language in mathematical optimization programs can lead experienced developers to create code with memory leaks, resulting in lengthy debugging cycles. The evolution of C++ standards leads to frequent updates and the integration of new language features in each version. However, due to the divergence between classical C and modern C++, mathematical solvers cannot benefit from these features, e.g. for efficient memory management. 
+
+
+In today's programming education, the focus is on functional programming languages other than C. Consequently, the pool of new researchers who can develop tailored algorithms for MINLP may be smaller than in other areas of mathematical optimization.
+A notable recent development is the SCIP team's decision to make it a fully open source protocol. This transformation raises hopes that the broader community will contribute extensively to its further development. One way to close the current gap is to gradually replace the C components of SCIP with a modern programming language. Similarly, the Linux community has begun using Rust to reimplement the Linux kernel, a strategy we can emulate.
+
+
+Rust is an ahead-of-time compiled programming language that focuses on performance, type safety, and concurrency. It enforces memory safety— without requiring the use of a garbage collector or reference counting. It borrows ideas from functional programming, including static types, immutability, higher-order functions, and algebraic data types.
+In addition, Rust has a built-in package management system and testing infrastructure, making it a suitable choice for an open source-driven development landscape. We envision an enriching exploration of the software framework jointly orchestrated by researchers, users, and the open source community.
+

@@ -1,0 +1,425 @@
+% ******************************************************************************
+% ****************************** Custom Margin *********************************
+
+% Add `custommargin' in the document class options to use this section
+% Set {innerside margin / outerside margin / topmargin / bottom margin}  and
+% other page dimensions
+\ifsetCustomMargin
+\RequirePackage[left=37mm,right=30mm,top=35mm,bottom=30mm]{geometry}
+  \setFancyHdr % To apply fancy header after geometry package is loaded
+\fi
+
+% Add spaces between paragraphs
+%\setlength{\parskip}{0.5em}
+% Ragged bottom avoids extra whitespaces between paragraphs
+\raggedbottom
+% To remove the excess top spacing for enumeration, list and description
+%\usepackage{enumitem}
+%\setlist[enumerate,itemize,description]{topsep=0em}
+
+% *****************************************************************************
+% ******************* Fonts (like different typewriter fonts etc.)*************
+
+% Add `customfont' in the document class option to use this section
+
+\ifsetCustomFont
+  % Set your custom font here and use `customfont' in options. Leave empty to
+  % load computer modern font (default LaTeX font).
+  %\RequirePackage{helvet}
+
+  % For use with XeLaTeX
+  %  \setmainfont[
+  %    Path              = ./libertine/opentype/,
+  %    Extension         = .otf,
+  %    UprightFont = LinLibertine_R,
+  %    BoldFont = LinLibertine_RZ, % Linux Libertine O Regular Semibold
+  %    ItalicFont = LinLibertine_RI,
+  %    BoldItalicFont = LinLibertine_RZI, % Linux Libertine O Regular Semibold Italic
+  %  ]
+  %  {libertine}
+  %  % load font from system font
+  %  \newfontfamily\libertinesystemfont{Linux Libertine O}
+\fi
+
+% *****************************************************************************
+% **************************** Custom Packages ********************************
+
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{geometry}
+\usepackage{lipsum}
+
+% ************************* Mathematics **************************
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{mathrsfs} 
+\usepackage{amsopn}
+\usepackage{mathtools}
+\usepackage[linesnumbered, ruled,vlined,resetcount,algochapter]{algorithm2e}
+\usepackage[nameinlink]{cleveref}
+
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{observation}[theorem]{Observation}
+
+\Crefname{chapter}{Chap.}{Chaps.}
+\Crefname{section}{Sect.}{Sects.}
+\Crefname{proposition}{Prop.}{Props.}
+\Crefname{theorem}{Thm.}{Thms.}
+\Crefname{definition}{Defn.}{Defns.}
+\Crefname{corollary}{Cor.}{Cors.}
+\Crefname{figure}{Fig.}{Figs.}
+\Crefname{observation}{Obs.}{Obss.}
+\Crefname{assumption}{Asm.}{Asms.}
+% ************************* Algorithms and Pseudocode **************************
+
+%\usepackage{algpseudocode}
+
+
+% ********************Captions and Hyperreferencing / URL **********************
+
+% Captions: This makes captions of figures use a boldfaced small font.
+%\RequirePackage[small,bf]{caption}
+\RequirePackage[labelsep=space,tableposition=top]{caption}
+\usepackage{subcaption}
+%\renewcommand{\figurename}{Fig.} %to support older versions of captions.sty
+
+
+% *************************** Graphics and figures *****************************
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{tikz-qtree,tikz-qtree-compat}
+\usepackage{graphicx}
+\usepackage{xcolor}
+%\usepackage{rotating}
+%\usepackage{wrapfig}
+
+% Uncomment the following two lines to force Latex to place the figure.
+% Use [H] when including graphics. Note 'H' instead of 'h'
+%\usepackage{float}
+%\restylefloat{figure}
+
+% Subcaption package is also available in the sty folder you can use that by
+% uncommenting the following line
+% This is for people stuck with older versions of texlive
+%\usepackage{sty/caption/subcaption}
+
+% ********************************** Tables ************************************
+\usepackage{booktabs} % For professional looking tables
+\usepackage{multirow}
+\usepackage{multicol}
+\setlength{\columnseprule}{0pt}
+\setlength\columnsep{10pt}
+%\usepackage{longtable}
+%\usepackage{tabularx}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{url}        	% simple URL typesetting
+\usepackage{subcaption}
+\usepackage[inline]{enumitem}
+\usepackage{diagbox}
+\usepackage{cancel}
+
+
+
+% *********************************** SI Units *********************************
+\usepackage{siunitx} % use this package module for SI units
+
+
+% ******************************* Line Spacing *********************************
+
+
+\usepackage[absolute,overlay]{textpos}
+% Choose linespacing as appropriate. Default is one-half line spacing as per the
+% University guidelines
+
+% \doublespacing
+% \onehalfspacing
+% \singlespacing
+
+
+% ************************ Formatting / Footnote *******************************
+
+% Don't break enumeration (etc.) across pages in an ugly manner (default 10000)
+%\clubpenalty=500
+%\widowpenalty=500
+
+%\usepackage[perpage]{footmisc} %Range of footnote options
+
+\usepackage{comment}
+% *****************************************************************************
+% *************************** Bibliography  and References ********************
+
+%\usepackage{cleveref} %Referencing without need to explicitly state fig /table
+
+% Add `custombib' in the document class option to use this section
+\ifuseCustomBib
+   \RequirePackage[square, sort, numbers, authoryear]{natbib} % CustomBib
+
+% If you would like to use biblatex for your reference management, as opposed to the default `natbibpackage` pass the option `custombib` in the document class. Comment out the previous line to make sure you don't load the natbib package. Uncomment the following lines and specify the location of references.bib file
+
+%\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
+%\addbibresource{References/references} %Location of references.bib only for biblatex, Do not omit the .bib extension from the filename.
+
+\fi
+
+% changes the default name `Bibliography` -> `References'
+\renewcommand{\bibname}{References}
+
+
+
+% *********** To change the name of Table of Contents / LOF and LOT ************
+
+%\renewcommand{\contentsname}{My Table of Contents}
+%\renewcommand{\listfigurename}{My List of Figures}
+%\renewcommand{\listtablename}{My List of Tables}
+
+
+% ********************** TOC depth and numbering depth *************************
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+
+% ******************************* Nomenclature *********************************
+
+% To change the name of the Nomenclature section, uncomment the following line
+
+%\renewcommand{\nomname}{Symbols}
+
+
+% ********************************* Appendix ***********************************
+
+% The default value of both \appendixtocname and \appendixpagename is `Appendices'. These names can all be changed via:
+
+%\renewcommand{\appendixtocname}{List of appendices}
+%\renewcommand{\appendixname}{Appndx}
+
+% *********************** Configure Draft Mode **********************************
+
+% Uncomment to disable figures in `draft'
+%\setkeys{Gin}{draft=true}  % set draft to false to enable figures in `draft'
+
+% These options are active only during the draft mode
+% Default text is "Draft"
+%\SetDraftText{DRAFT}
+
+% Default Watermark location is top. Location (top/bottom)
+%\SetDraftWMPosition{bottom}
+
+% Draft Version - default is v1.0
+%\SetDraftVersion{v1.1}
+
+% Draft Text grayscale value (should be between 0-black and 1-white)
+% Default value is 0.75
+%\SetDraftGrayScale{0.8}
+
+
+% ******************************** Todo Notes **********************************
+%% Uncomment the following lines to have todonotes.
+
+%\ifsetDraft
+%	\usepackage[colorinlistoftodos]{todonotes}
+%	\newcommand{\mynote}[1]{\todo[author=kks32,size=\small,inline,color=green!40]{#1}}
+%\else
+%	\newcommand{\mynote}[1]{}
+%	\newcommand{\listoftodos}{}
+%\fi
+
+% Example todo: \mynote{Hey! I have a note}
+
+% ******************************** Highlighting Changes **********************************
+%% Uncomment the following lines to be able to highlight text/modifications.
+%\ifsetDraft
+%  \usepackage{color, soul}
+%  \newcommand{\hlc}[2][yellow]{{\sethlcolor{#1} \hl{#2}}}
+%  \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
+%\else
+%  \newcommand{\hlc}[2]{}
+%  \newcommand{\hlfix}[2]{}
+%\fi
+
+% Example highlight 1: \hlc{Text to be highlighted}
+% Example highlight 2: \hlc[green]{Text to be highlighted in green colour}
+% Example highlight 3: \hlfix{Original Text}{Fixed Text}
+
+% *****************************************************************************
+% ******************* Better enumeration my MB*************
+\usepackage{enumitem}
+
+
+
+
+% ******************************************************************************
+% ************************* User Defined Commands ******************************
+% ******************************************************************************
+
+% abbreviations for words
+\newcommand{\st}{s.t. }
+\newcommand{\ie}{i.e., }
+\newcommand{\eg}{e.g.,~}
+\newcommand{\etc}{etc.}
+
+% abbreivations for symbols
+\newcommand{\bB}{\mathbb B}
+\newcommand{\bR}{\mathbb R}
+\newcommand{\bZ}{\mathbb Z}
+\newcommand{\bQ}{\mathbb Q}
+\newcommand{\bN}{\mathbb N}
+\newcommand{\bP}{\mathbb{P}}
+
+\newcommand{\cA}{\mathcal A}
+\newcommand{\cB}{\mathcal B}
+\newcommand{\cO}{\mathcal O}
+\newcommand{\cC}{\mathcal C}
+\newcommand{\cD}{\mathcal D}
+\newcommand{\cE}{{\mathcal E}}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cL}{\mathcal L}
+\newcommand{\cG}{\mathcal G}
+\newcommand{\cK}{\mathcal K}
+\newcommand{\cM}{\mathcal M}
+\newcommand{\cI}{\mathcal I}
+\newcommand{\cN}{\mathcal N}
+\newcommand{\cX}{\mathcal X}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\cU}{\mathcal U}
+\newcommand{\cQ}{\mathcal Q}
+\newcommand{\cV}{\mathcal V}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\cY}{\mathcal Y}
+\newcommand{\cZ}{\mathcal Z}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\cEI}{{\mathcal {EI}}}
+\renewcommand{\cI}{{\mathcal I}}
+\newcommand{\deq}{\coloneqq}
+\DeclareMathOperator{\suc}{s.t.}
+\DeclareMathOperator{\proj}{proj}
+
+\newcommand{\lin}[2]{{\Xi^{#1}_{#2}}}
+\newcommand{\relx}[1]{\tilde{#1}}
+
+\newcommand{\mst}{\textup{ s.t. }}
+\renewcommand{\rm}[1]{\mathrm{#1}}
+
+
+% math operators
+
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\rang}{range}
+\DeclareMathOperator{\inter}{int}
+\DeclareMathOperator{\relinter}{relint}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\cone}{cone}
+\DeclareMathOperator{\conve}{convenv}
+\DeclareMathOperator{\epi}{epi}
+\DeclareMathOperator{\hyp}{hypo}
+\DeclareMathOperator{\gr}{gr}
+\DeclareMathOperator{\gra}{gr}
+\DeclareMathOperator{\cl}{cl}
+\DeclareMathOperator{\bd}{bd}
+\DeclareMathOperator{\dw}{DW}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator*{\e}{e}
+\DeclareMathOperator*{\vt}{v}
+\DeclareMathOperator*{\ct}{ct}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\nsign}{nsign}
+\DeclareMathOperator{\prev}{prev}
+\DeclareMathOperator{\dst}{dist}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\newcommand{\norm}[1]{{\lVert#1\rVert}}
+
+\newcommand{\vc}[1]{\bm{#1}}
+\newcommand{\vx}{{\vc{x}}}
+\newcommand{\va}{{\vc{\alpha}}}
+\newcommand{\vy}{{\vc{y}}}
+\newcommand{\vz}{{\vc{0}}}
+\newcommand{\ve}{{\vc{z}}}
+\newcommand{\vu}{{\vc{1}}}
+\newcommand{\vv}{{\vc{v}}}
+\newcommand{\vs}{{\vc{s}}}
+
+
+\SetKwComment{Comment}{$\triangleright$\ }{}
+\SetCommentSty{}
+\SetKw{Continue}{continue}
+\SetKw{Break}{break}
+
+
+
+\newcommand{\rc}{{\text{rc}}}
+\newcommand{\dfproblem}{discrete facility SCP}
+\newcommand{\ddproblem}{discrete demand SCP}
+\newcommand{\ncalgo}{\text{nodeCover}}
+\newcommand{\malgo}{\text{mutual}}
+\newcommand{\bO}[1]{{\mathcal{O}(#1)}}
+\newcommand{\dash}{:}
+\newcommand{\tabledefline}[2]{\multicolumn{1}{l}{\rlap{#1\ \dash\ #2}}\\}
+
+
+\newcommand{\bsocpcomp}{BSOCP-BC\xspace}
+\newcommand{\dwbc}{DW-BC\xspace}
+\newcommand{\dwpwl}{DW-PWL\xspace}
+\newcommand{\dwhybrid}{DW-Hybrid\xspace}
+\newcommand{\dwhybrids}{DW-Hybrid*\xspace}
+\DeclareMathOperator{\abs}{abs}
+
+
+
+\newcommand{\couenne}{$\texttt{Couenne}$\xspace}
+\newcommand{\baron}{$\texttt{BARON}$\xspace}
+\newcommand{\antigone}{$\texttt{ANTIGONE}$\xspace}
+\newcommand{\miso}{$\texttt{MISO}$\xspace}
+\newcommand{\minlplib}{MINLPLib\xspace}
+\newcommand{\scip}{SCIP\xspace}
+\newcommand{\disable}{\texttt{disable}\xspace}
+\newcommand{\ic}{\texttt{ic}\xspace}
+\newcommand{\oc}{\texttt{oc}\xspace}
+\newcommand{\oic}{\texttt{oic}\xspace}
+\newcommand{\cSt}{\cS_{\mathrm{st}}}
+\newcommand{\bcSt}{\overline{\cS}_{\mathrm{st}}}
+\newcommand{\cSl}{\cS_{\mathrm{lift}}}
+
+\newcommand{\maxcut}{\textsc{max cut}\xspace}
+\newcommand{\pbm}{\textsc{pseudo Boolean maximization}\xspace}
+\newcommand{\bdopt}{\textsc{Bayesian D-optimal design}\xspace}
+\newcommand{\dopt}{\textsc{D-optimal design}\xspace}
+
+
+\DeclareMathOperator{\relint}{relint}
+\DeclareMathOperator{\relbd}{relbd}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\trace}{trace}
+\DeclareMathOperator{\ldet}{log\,det}
+\DeclareMathOperator{\ext}{ext}
+\newcommand{\cha}[1]{\mathsf{supp}(#1)}
+\newcommand{\p}[1]{\ensuremath{\mathsf{PM}_{#1}} }
+\newcommand{\ep}[1]{\ensuremath{\mathsf{EPM}_{#1}} }
+\newcommand{\ee}[1]{\ensuremath{\mathsf{EE}_{#1} }}
+\renewcommand{\t}[1]{{#1}^\top}
+\newcommand{\sF}{{\mathsf F}}
+\newcommand{\bsF}{\bar{\mathsf F}}
+
+\newcommand{\bS}{{\mathbb S}}

@@ -1,0 +1,239 @@
+%!TEX root = ../thesis.tex
+%*******************************************************************************
+%*********************************** First Chapter *****************************
+%*******************************************************************************
+
+\chapter{Introduction}  %Title of the First Chapter
+
+
+%********************************** %First Section  **************************************
+The conventional practice of applied mathematics rests on three essential processes: modeling, simulation, and optimization.
+
+Scientists typically hold the view that there exist well-defined principles governing both natural and human processes. Modeling is the field dedicated to uncovering and describing these principles through formal languages. Formal languages can be parsed by computers into executable code. In this thesis, we consider 
+mathematical models that are  described formally by known inputs,  unknown inputs, and possibly with some decision criteria for the outputs.  
+
+The majority of natural and human processes, such as physical phenomena, are either not entirely within human control or prohibitively expensive to reproduce. Simulation creates environments for mimicking these processes using their mathematical models,  facilitating the characterization of their properties. Contemporary computers enable the creation of virtual environment  by translating formal language models into executable codes, subsequently executing them to produce output data.  Nowadays, with powerful computing resources, simulation can now handle mathematical models with a vast number of inputs, such as simulating quantum systems and multi-agent systems.
+
+
+Optimization is the mathematical process of  finding values of the unknown outputs of a model that satisfies given criteria by means of observed inputs. In this setting, the mathematical model is called an \emph{optimization model}, the problem is called an \emph{optimization problem}. The procedure for optimization is typically referred as an  \emph{algorithm}, which can be implemented on computers. Optimization plays a crucial role in model fitting and decision-making, like the traveling salesman problem, where good outputs correspond to  routes with low cost.
+
+Though both simulation and optimization utilize computers for executing mathematical models, their objectives can diverge. Simulation aims to replicate natural and human processes based on their mathematical models, whereas optimization operates under the assumption that the provided mathematical models are always valid, focusing on the task of searching for optimal solutions. 
+
+Mathematical Programming (MP) is a specific formal language for describing most optimization problems. Every formal sentence is called a \emph{formulation} of some given optimization problem. Every MP formulation decomposes an optimization problem (or problem class) into five symbolic entities, called: (i) parameters, which encode the problem input; (ii) decision variables, which encode the problem output; (iii) one or more objective functions, expressed in terms of parameters and decision variables, which encode the criteria to be optimized; (iv) zero or more explicit constraints, which are criteria depending on parameters and decision variables; (v) zero or more implicit constraints, which are criteria that state membership of some decision variables in a given set. Functions and explicit constraints are explicitly given in terms of mathematical expressions, whereas the set appearing in implicit constraints must be taken into account by a solution algorithm deployed on the formulation.
+
+
+
+
+ Optimization under uncertainty is the investigation of optimization problems when there is uncertainty regarding the parameters involved. In the general case, addressing this uncertainty involves the incorporation of sampling methods into an optimization process, allowing for a probabilistic approximation of optimization problems through sampling. However, it is worth noting that this thesis will not delve into such matters.
+
+
+Solution algorithms for MP formulations are called \emph{solvers}. Such solvers correspond to a taxonomy of MP formulation classes organized about continuity or integrality of the decision variables, as well as linearity, nonlinearity, convexity of the objective function(s) and explicit constraints. For example, MP formulations with integer variables and linear forms are called Mixed-Integer Linear Programming (MILP). 
+When MP formulations include both integer variables and nonlinear terms, they fall into the category known as Mixed-Integer Nonlinear Programming (MINLP).
+
+Global optimization is the study of optimization problems involving nonlinearity and nonconvexity. This is a larger class than MINLP because it also includes the so-called \emph{black-box} optimization problems, where functions are given as oracles, rather than as mathematical expressions --- but this thesis will not treat such problems.
+
+
+As we will demonstrate later, MINLP can express many types of optimization problems.
+At present, MINLP solvers \cite{couenne,bestuzheva2023global,sahinidis:baron:21.1.13} can theoretically tackle several types of structured MINLP problems globally, including box-constrained problems  described by elementary functions (such as power and trigonometric functions) and elementary convex cones (including polyhedral cones and second-order cones).  However, it is crucial to note that there are subclasses of MINLP problems that can be proven to be $\mathcal{NP}$-complete or even undecidable. The topics of  the complexity and computability of MINLP, as discussed in \cite{liberti2019undecidability}, fall outside the scope of this thesis.
+
+MINLP draws upon certain methodologies from MILP, enabling it to handle  problems with discrete decision variables from operations research and combinatorial optimization.  MINLP goes a step further and extends its capabilities to tackle nonlinear mathematical models as well. As a result, MINLP finds relevance in diverse fields such as chemical research \cite{pistikopoulos2021process}, process engineering \cite{kocis1989computational}, and control theory \cite{harjunkoski2009integration}.  However, the current state-of-the-art limits the  speed of solvers, leaving significant room for further research.
+
+
+This thesis studies various approaches for solving multiple classes of MINLP problems. The main objective of this thesis is to narrow the disparity between the limited range of available optimization algorithms and the vast challenging MINLP problems. The central theme underpinning our study revolves around relaxation methods for MINLP. In the subsequent sections, we will define and categorize MINLP problems, while also providing an overview of fundamental relaxation-based optimization techniques.
+
+\section{Classifications of MINLP problems} %Section - 1.1 
+A MINLP problem formally admits the following form:
+\begin{subequations}
+    \label{minlp}
+    \begin{align}
+       \inf &  \quad f_0(x) \label{minlp.obj} \\
+    \mst \quad i \in [m] & \quad f_i(x) \in \cS_i  \label{minlp.consf} \\
+      j \in [n] &  \quad x_j \in [\ell_j, u_j] \label{minlp.consfbd}\\
+      j \in [k] & \quad x_j \in \bZ, \label{minlp.consint}
+    \end{align}
+    \end{subequations}
+where $[n]:=\{1,\cdots,n\}$ is the index set of all variables, $[k]:=\{1,\cdots,k\}$ is the index set of integer variables, $[m]:=\{1,\cdots,m\}$ is the index set of  function-in-set constraints.  The objective function $f_0$ maps  variables to a scalar value. For all $i \in [m]$, $\cS_i$ is a  set embedded in a linear space, and $f_i$ maps variables to a vector in that linear space. For all $j \in [n]$, the scalar constants $\ell_j , u_j$  are lower and upper bounds of variable $x_j$ respectively, and $-\infty \le \ell_j  <  u_j \le +\infty$. The above  parameters are also called \emph{data} of the MINLP problem. 
+
+
+Each constraint $x_j \in \bZ$ in \eqref{minlp.consint} is called an \emph{integrality constraint}, each constraint $x_j \in [\ell_j, u_j]$ in \eqref{minlp.consf} is called a \emph{variable bound constraint}, and each constraint $f_i(x) \in \cS_i$ is called a \emph{function-in-set  constraint}. A function-in-set  constraint is composed of a function and a set, and it allows for the modeling of complicated constraints. For example, $\cS_i$ can be a nonconvex set or a manifold. Even though it is possible to represent integrality and variable bound constraints as unique function-in-set constraints, the convention is to express them individually.
+
+The initial step in solving MINLP problems involves identifying their types, a crucial procedure applied in general-purpose MINLP solvers. The tractability of MINLP problems relies on their specific types, which we define based on the types of variables and constraints present within them.
+
+
+
+MINLP types are compositions of elementary types. To indicate that type T is a subtype of type T', we use the notation T $\preceq $ T'. Especially, in many programming languages, we use $\varnothing$ to denote the NULL type for syntax completeness. The NULL type is the sub-type of any type. Now, we proceed to define the elementary types and  their subtypes.
+
+
+
+The elementary type TI  has sub-types in \{integer, binary, $\varnothing$\}, and it pertains to the discrete aspect of a MINLP problem. If there is at least one integer variable ($k\ne 0$), then TI is of the sub-type ``integer''. If additionally, the variable bounds of all integer variables lie within the range $[0, 1]$, then TI is of the sub-type  "binary." In the absence of any integer variables ($k=0$), TI is represented as $\varnothing$ (NULL type). Importantly, we observe that the ``binary'' type is a subtype of the ``integer'' type (binary $\preceq $ integer).
+
+The elementary type TC has sub-types in \{linear, conic, nonlinear\}, and it relates to the continuous aspect of a MINLP problem. If every function $f_i$ is affine and its associated set $S_i$ is a nonnegative/nonpositive orthant or zero cone, then TC is of the sub-type ``linear''. If every function $f_i$ is affine and its associated set $S_i$ is a convex cone, then TC is of the sub-type "conic." However, if at least one function $f_i$ is nonlinear or if at least one set $\cS_i$ is non-polyhedral, then TC is of the sub-type ``nonlinear''. It is essential to recognize that the "linear" type is a subtype of the ``conic'' type (linear $\preceq $ conic), and the ``conic'' type is a subtype of the ``nonlinear'' type (conic $\preceq $ nonlinear).
+
+
+The conic type has some subtypes, which correspond to convex cones, such as polyhedral cone, power cone, second-order cone, cone of semi-definite matrices, and cone of composite matrices. The nonlinear type also has some subtypes not in conic type, such as polynomial and signomial.
+
+
+The elementary type TM  has sub-types  in \{mixed, $\varnothing$\}, and it captures the interplay of discrete and continuous properties. When there are some, but not all ($0 \ne k \ne n$), integer variables present in the MINLP problem, then TM is of the sub-type ``mixed''. However, if either all ($k = n$) or none ($k = 0$) of the variables are integer, then TM is of the sub-type $\varnothing$ (NULL). It is worth noting that $\varnothing \preceq$  mixed, meaning a continuous problem is a subtype of a mixed problem.
+
+\begin{definition}
+A type of MINLP is a product type of TM,TI,TC.
+\end{definition}
+
+
+
+In a MINLP problem of elementary types TM, TI, TC, its continuous relaxation becomes a nonlinear programming (NLP) problem of a type of TC. Thus, each MINLP type has a corresponding derived type for its continuous relaxation.
+
+\begin{definition}
+    A derived type TD of MINLP type TM, TI, TC belongs to \{convex, nonconvex\}. If any problem instance of the TC type  is convex, then the derived type TD of TC is convex; otherwise, TD is nonconvex.
+\end{definition}
+
+Typically, MINLP problems are referred to as ``TM TI TC programs'', denoting their elementary types, and discrete and continuous properties. Sometimes, we also examine the derived type TD, in which case we call it a ``TD TM TI TC program''. To simplify matters, we frequently employ abbreviations based on a straightforward rule: we preserve and capitalize the initial letters of TM, TI, TC, and "program," while TD remains unabbreviated.
+
+As an illustration, consider the following examples:
+ If a MINLP problem is of the type ``mixed, integer, linear'', it is referred to as a ``mixed-integer linear program'' and is abbreviated as MILP. If the MINLP problem is a MILP and additionally, its TI is binary, it becomes a ``mixed binary linear program'' and is abbreviated as MBLP.  If the type of a MINLP problem is ``integer, polynomial'', then its derived type is nonconvex. In this case, it is known as an ``integer polynomial program'' (IPP) or a ``nonconvex integer polynomial program'' (nonconvex IPP).
+
+
+
+
+
+
+
+In the following alternative representation, the MINLP problem can be viewed as a linear optimization problem over its feasible set. To transform the formulation \eqref{minlp} into  this representation, the following processes can be taken: add the constraint $f(x) \le t$, where $t$ is an additional variable; change the objective of the optimization problem to $\inf t$;
+consider $t$ as a part of the variables in the problem.
+This gives rise to the alternative formulation of MINLP problems:
+
+ \begin{subequations}
+    \label{minlpref}
+    \begin{align}
+       \inf &  \quad cx \label{minlpref.obj} \\
+    \mst \quad i \in [m] & \quad f_i(x) \in \cS_i  \label{minlpref.consf} \\
+      j \in [n] &  \quad x_j \in [\ell_j, u_j] \label{minlpref.consfbd}\\
+      j \in [k] & \quad x_j \in \bZ. \label{minlpref.consint}
+    \end{align}
+    \end{subequations}
+
+
+Without loss of generality, we focus on MINLP problems represented in the formulation of \eqref{minlpref}.
+A MINLP problem is considered \emph{tractable} if there exists an algorithm capable of approximating it with arbitrary accuracy in a time that is polynomial w.r.t. its encoding size and the desired level of accuracy. 
+A vast number of tractable MINLP problems are (continuous) convex optimization problems, and the tractability can be achieved by the ellipsoid algorithm \cite{ecker1983ellipsoid}. This algorithm relies on the following concept of separation oracle.
+
+\begin{definition}
+  Given a compact convex set $K \subseteq \bR^n$,  a separation oracle for $K$ is an oracle (black box) that, given a vector $x\in \bR^n$, returns one of the following:
+  \begin{itemize}
+      \item  Assert that $x \in  K$.
+      \item  Find a hyperplane that separates $x$ from $K$: a vector $a \in \bR^n$, such that $a  y > a x$  for all $y \in K$.
+  \end{itemize}
+\end{definition} 
+
+Since we consider the MINLP problem as in \eqref{minlpref}, we refer to
+ the separation from MINLP as the separation from its feasible set. The classification of MINLP problems  helps identify the first subclass of tractable MINLP problems.
+
+\begin{lemma}[\cite{vaidya1996new}]
+If a convex NLP  problem with a compact feasible set has a  polynomial time separation oracle, then it is tractable.
+\end{lemma}
+
+
+
+
+
+Linear programming (LP) and semi-definite programming (SDP) are NLP with linear objective functions over constraints represetable by polyhedral cones and cones of positive semi-definite matrices. They are well-established and tractable sub-types of 
+ MINLP, both equipped with polynomial time separation oracles. In contrast, the broader category of nonconvex NLP problems is typically considered intractable \cite{liberti2019undecidability}. Furthermore, MINLP, as a super-type encompassing MILP, contains a multitude of intractable problems.
+
+Much of the research in the field of MINLP revolves around a seemingly self-evident principle.
+
+\begin{theorem}
+If a MINLP problem exhibits a compact feasible set and possesses a polynomial time separation oracle for the convex hull of this set, then it is  tractable.    
+\end{theorem}
+\begin{proof}
+    A formal proof can be found later in \Cref{lem.compacthull}.
+\end{proof}
+
+
+For a few MINLP problems, the convex hulls of their feasible sets are well-defined and accompanied by polynomial time separation oracles. As a result, these specific MINLP problems are tractable, implying that we can ``solve'' these problems in  a reasonable time. The theorem above motivates researchers to explore the convex hulls of various structured sets arising in applications. 
+
+Nevertheless, for a substantial portion of MINLP problems, constructing the convex hulls of their feasible sets is a formidable task. Achieving this would imply that numerous $\mathcal{NP}$-hard problems are, unexpectedly, tractable. Consequently, the ongoing research direction is centered on identifying and harnessing practical outer approximations for these sets.
+
+While solving these ``approximated'' problems may not directly resolve the original problems, they can serve as valuable stepping stones towards solving the original problem using the algorithm detailed in the subsequent section. This characteristic underscores the profound nature of ongoing research in the field of MINLP.
+
+\section{Relaxation-based MINLP optimization}
+
+Solving nonconvex MINLP problems poses significant challenges. Nevertheless, there is a notable class of nonconvex MINLP problems for which an implicit enumeration algorithm remains useful, given they meet the following condition.
+
+\begin{definition}
+    A MINLP \eqref{minlpref} is said to be box-bounded, if, for all $j \in [n]$, $-\infty < \ell_j < u_j <+\infty$. 
+\end{definition}
+
+For a MINLP problem with a compact feasible set, there always exists a hypercube, which contains its feasible set. W.l.o.g., we consider box-constrained MINLP problems in the sequel. 
+
+ The spatial Branch-and-Bound (sBB) algorithm \cite{leonelson}, an implicit enumeration algorithm, serves as a foundational framework for numerous general-purpose MINLP solvers. Generally, this algorithm involves three fundamental procedures: ``primal bounding'', ``dual bounding'', and ``branching''.
+
+
+
+Throughout the algorithm's execution, it keeps track of two critical bounds: the \emph{dual bound} and the \emph{primal bound}. The best solution discovered during the algorithm's run, often referred to as the incumbent solution, is utilized to establish the primal bound. The primary objective of the primal bounding is to find a feasible solution to the MINLP problem.
+
+The sBB algorithm implicitly traverses the search space defined by the box constraint of the MINLP problem. This process involves subdividing the search space into smaller regions and addressing constrained MINLP subproblems within these sub-search spaces. The sBB algorithm not only branches on integer variables like the classical BB algorithm for MILP but also branches on continuous variables in nonlinear and nonconvex expressions. The latter behavior is called \emph{spatial branching}, which allows for finer approximations of nonlinear expressions within smaller regions.
+
+The local dual bound is  a lower bound for the objective value of any solution within a particular constrained MINLP subproblem. If the primal bound falls below the local dual bound for a given region, it signifies that no solution better than the incumbent solution can exist within that unpromising region, allowing for pruning the search there.
+
+
+All remaining unpruned regions collectively constitute the ``open'' search space that the sBB algorithm needs to explore for its convergence. The dual bound retained by the sBB algorithm represents the smallest among the local dual bounds within all these unpruned regions. The \emph{(duality) gap}, which is the difference between the primal bound and the dual bound, serves as a certification of the sBB algorithm's convergence.
+
+ To methodically navigate through the search region, a systematic enumeration strategy is employed, referred to as a \emph{branching rule}.  The goal of a branching rule differs: it can be either to find a good primal solution or to reduce the gap. 
+ 
+
+
+In order to methodically explore the search region, the sBB algorithm employs a systematic enumeration approach known as a \emph{branching rule}. The purpose of a branching rule can vary; it may aim to discover a promising primal solution or to narrow the gap between bounds.
+
+Due to the modular nature of the sBB algorithm, the components of primal bounding, dual bounding, and branching rules can be examined independently and seamlessly integrated, akin to the design philosophy of the \scip solver \cite{bestuzheva2023global}. In-depth discussions of primal bounding and branching rules are outside the scope of this thesis, and readers are referred to \cite{belotti2009branching} and  \cite{berthold2015heuristic} for comprehensive insights.
+
+As will be shown, many dual bounding techniques hinge on the notion of ``relaxations''. Therefore, we strongly emphasize the sBB algorithm as a ``relaxation-based MINLP algorithm''. In the following section, we provide formal definitions of relaxations.
+
+\begin{definition}
+  Given a MINLP problem, its relaxation is another MINLP problem, which contains all feasible solutions to the original MINLP problem.
+\end{definition}
+
+The above definition is general, and we will show concrete methods to construct relaxations in the next chapter. We first look at the consequence of relaxations.
+Normally, a relaxed problem should be tractable, possibly taking the form of a convex optimization problem, or at the very least, it should be more computationally affordable than the original problem. One illustrative approach involves a geometric strategy, wherein an outer approximation of the feasible set of the original problem is constructed, resulting in a relaxed problem. The optimal value of this relaxed problem is designated as the ``optimal relaxation value'', and the best solution for the relaxed problem is referred to as the ``optimal relaxation solution''. In this manner, the sBB algorithm derives a local dual bound, as  below.
+
+\begin{lemma}
+    The optimal relaxation value is at most the optimal value of the original problem.
+\end{lemma}
+\begin{proof}
+    This is because the feasible set of the relaxation problem includes that of the original problem.
+\end{proof}
+
+
+ The following observation is  simple but fundamental for nonconvex optimization.
+
+\begin{lemma}
+\label{lem.compacthull}
+    For a compact set $K \subseteq \bR^n$, linear optimization on $K$ is equivalent to linear optimization on $\conv(K)$.
+\end{lemma}
+\begin{proof}
+    It is obvious that $\min_{x \in K} c x \ge \min_{x \in \conv(K)} c x$. Moreover, for every $x  = \sum_{i} \lambda_i x^i \in \conv(K)$ with $x_i \in K,\lambda_i \ge 0$, since $\sum_i \lambda_i = 1$, $cx = c (\sum_{i} \lambda_i x^i) \le \min_{x \in K} c x  $. Therefore,  $\min_{x \in K} c x = \min_{x \in \conv(K)} c x$. 
+\end{proof}
+
+
+A relaxation problem is considered ``tight'' when its optimal solution is also optimal to the original problem. Consequently, achieving tightness frequently necessitates that the feasible set of the relaxed problem corresponds to the convex hull of the original problem's feasible set. Nevertheless, constructing the convex hull can be challenging. Therefore, it is often more practical to seek an outer approximation of set $K$ that strikes a suitable balance between the quality of the relaxation and the efficiency of the relaxation.
+
+
+Throughout the execution of the sBB algorithm, both primal bounding and branching rules can make use of the insights gleaned from the optimal relaxation solution. For example, local search heuristics may commence their exploration from an optimal relaxation solution, using it as a starting point to guide their search.
+
+Nonetheless, specific tasks, such as decreasing the duality gap, might exclusively demand a local dual bound without necessarily requiring the relaxation solution. Consequently, this concept introduces a more limited interpretation of relaxation.
+
+\begin{definition}
+     Given a MINLP problem, its objective relaxation is another MINLP problem whose optimal value is at most the optimal value of the original problem.
+\end{definition}
+
+
+
+
+With the aforementioned introduction, this thesis tackles the challenge of constructing relaxations for a structured MINLP problem or a class of structured MINLP problems. This helps find tractable approximations that can aid in solving the original problem effectively. Following the above analysis, the thesis deals with the problem of constructing convex outer approximations for nonconvex sets. 
+
+\section{Structure of the thesis}
+We organize this thesis as follows. In \Cref{chap.basic}, we summarize the basic relaxation tools in the literature. In \Cref{chap.theorystructure},  we develop and introduce some advanced relaxation results for structured problems. In the following chapters, we study structured MINLP problems and use our relaxation tools to solve these problems. In \Cref{chap.sig}, we study signomial programming, and we propose intersection cuts and outer approximation cuts to relax the problem.  In \Cref{chap.submax}, we study submodular maximization and its generalized problems, and we propose intersection cuts for approximating these problems.  In \Cref{chap.sbp},  we study the submodular bin packing problem, we apply Dantzig-Wolfe (DW) relaxation and branch-and-price to solve this problem, and we use a tailored piece-wise linear approximation algorithm to solve the pricing problem. In \Cref{chap.bp}, we consider the problem of unsplittable multi-commodity flow in wireless networks, where network coding is employed to reduce traffic. We compare two linearization methods for Boolean quadratic terms arising in this problem, and we propose Dantzig Wolfe relaxation and branch-and-price algorithm to solve the linearized MILP problem. In \Cref{chap.cflg}, we study the problem of continuous covering on networks, and introduce big-M MILP formulations for modeling nonconvex piece-wise linear functions.  In \Cref{chap.con}, we conclude this thesis with the perspectives on the future research of MINLP.
+  
+\section{Prior publications} 
+
+Parts of the thesis are published in advance. \Cref{chap.cflg} is based on a joint work with Mercedes Pelegrín that is published in the Omega International Journal of Management Science \cite{PELEGRIN2023102835}.  \Cref{chap.bp} is based on a joint work with Sonia Haddad Vanier that is published in the Networks journal \cite{xu2022branch}.  \Cref{chap.sbp} is based on a joint  work with Claudia D'Ambrosio, Sonia Haddad Vanier, and Emiliano Traversi that will be published in EURO Journal on Computational Optimization \cite{xu2022branch}. \Cref{chap.submax} is based on a joint work with Leo Liberti that is  under a major revision in Mathematical Programming Series B. \Cref{chap.sig} is based on a submitted joint work with Claudia D'Ambrosio, Sonia Haddad-Vanier, Leo Liberti.
+

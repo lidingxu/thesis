@@ -1,0 +1,220 @@
+%!TEX root = ../thesis.tex
+%*******************************************************************************
+%*********************************** First Chapter *****************************
+%*******************************************************************************
+
+\chapter{Introduction en français}  %Title of the First Chapter
+
+
+%********************************** %First Section  **************************************
+La pratique conventionnelle des mathématiques appliquées repose sur trois processus essentiels : la modélisation, la simulation et l'optimisation.
+
+Les scientifiques sont généralement d'avis qu'il existe des principes bien définis régissant les processus naturels et humains. La modélisation est le domaine consacré à la découverte et à la description de ces principes au moyen de langages formels. Les langages formels peuvent être analysés par les ordinateurs en code exécutable. Dans cette thèse, nous considérons 
+des modèles mathématiques décrits formellement par des entrées connues, des entrées inconnues et éventuellement des critères de décision pour les sorties.  
+
+La majorité des processus naturels et humains, tels que les phénomènes physiques, ne sont pas entièrement sous le contrôle de l'homme ou sont excessivement coûteux à reproduire. La simulation crée des environnements permettant d'imiter ces processus à l'aide de leurs modèles mathématiques, facilitant ainsi la caractérisation de leurs propriétés. Les ordinateurs contemporains permettent de créer un environnement virtuel en traduisant les modèles du langage formel en codes exécutables, puis en les exécutant pour produire des données de sortie.  Aujourd'hui, grâce à de puissantes ressources informatiques, la simulation peut désormais traiter des modèles mathématiques avec un grand nombre d'entrées, comme la simulation de systèmes quantiques et de systèmes multi-agents.
+
+
+L'optimisation est le processus mathématique qui consiste à trouver les valeurs des sorties inconnues d'un modèle qui satisfont à des critères donnés au moyen d'entrées observées. Dans ce contexte, le modèle mathématique est appelé "modèle d'optimisation" et le problème "problème d'optimisation". La procédure d'optimisation est généralement appelée \emph{algorithme}, qui peut être mis en œuvre sur ordinateur. L'optimisation joue un rôle crucial dans l'ajustement des modèles et la prise de décision, comme dans le problème du voyageur de commerce, où les bons résultats correspondent à des itinéraires peu coûteux.
+
+Bien que la simulation et l'optimisation utilisent toutes deux des ordinateurs pour exécuter des modèles mathématiques, leurs objectifs peuvent diverger. La simulation vise à reproduire les processus naturels et humains sur la base de leurs modèles mathématiques, tandis que l'optimisation part du principe que les modèles mathématiques fournis sont toujours valables et se concentre sur la recherche de solutions optimales. 
+
+La programmation mathématique (PM) est un langage formel spécifique permettant de décrire la plupart des problèmes d'optimisation. Chaque phrase formelle est appelée une \emph{formulation} d'un problème d'optimisation donné. Chaque formulation MP décompose un problème d'optimisation (ou une classe de problèmes) en cinq entités symboliques, appelées : (i) paramètres, qui codent l'entrée du problème ; (ii) variables de décision, qui codent la sortie du problème ; (iii) une ou plusieurs fonctions objectives, exprimées en termes de paramètres et de variables de décision, qui codent les critères à optimiser ; (iv) zéro ou plusieurs contraintes explicites, qui sont des critères dépendant des paramètres et des variables de décision ; (v) zéro ou plusieurs contraintes implicites, qui sont des critères énonçant l'appartenance de certaines variables de décision à un ensemble donné. Les fonctions et les contraintes explicites sont explicitement données en termes d'expressions mathématiques, tandis que l'ensemble apparaissant dans les contraintes implicites doit être pris en compte par un algorithme de solution déployé sur la formulation.
+
+L'optimisation dans l'incertitude est l'étude des problèmes d'optimisation lorsqu'il y a une incertitude concernant les paramètres impliqués. Dans le cas général, le traitement de cette incertitude implique l'incorporation de méthodes d'échantillonnage dans un processus d'optimisation, permettant une approximation probabiliste des problèmes d'optimisation par le biais de l'échantillonnage. Toutefois, il convient de noter que cette thèse n'abordera pas ces questions.
+
+
+Les algorithmes de solution pour les formulations MP sont appelés \emph{solvers}. Ces solveurs correspondent à une taxonomie de classes de formulations MP organisées autour de la continuité ou de l'intégralité des variables de décision, ainsi que de la linéarité, de la non-linéarité, de la convexité de la (des) fonction(s) objective(s) et des contraintes explicites. Par exemple, les formulations MP avec des variables entières et des formes linéaires sont appelées Programmation linéaire en nombres entiers mixtes (MILP). 
+Lorsque les formulations MP comprennent à la fois des variables entières et des termes non linéaires, elles entrent dans la catégorie connue sous le nom de programmation non linéaire à nombre entier mixte (MINLP).
+
+L'optimisation globale est l'étude des problèmes d'optimisation impliquant la non-linéarité et la non-convexité. Il s'agit d'une classe plus large que la MINLP, car elle comprend également les problèmes d'optimisation dits "boîte noire", où les fonctions sont données comme des oracles, plutôt que comme des expressions mathématiques - mais cette thèse ne traitera pas de ces problèmes.
+
+
+Comme nous le démontrerons plus tard, MINLP peut exprimer de nombreux types de problèmes d'optimisation.
+Actuellement, les solveurs MINLP \cite{couenne,bestuzheva2023global,sahinidis:baron:21.1.13} peuvent théoriquement traiter globalement plusieurs types de problèmes MINLP structurés, y compris les problèmes contraints décrits par des fonctions élémentaires (telles que les fonctions puissance et trigonométriques) et les cônes convexes élémentaires (y compris les cônes polyédriques et les cônes de second ordre).  Cependant, il est crucial de noter qu'il existe des sous-classes de problèmes MINLP qui peuvent être prouvés comme étant $\mathcal{NP}$-complets ou même indécidables. Les thèmes de la complexité et de la calculabilité de MINLP, tels que discutés dans \cite{liberti2019undecidability}, sortent du cadre de cette thèse.
+
+MINLP s'inspire de certaines méthodologies de MILP, ce qui lui permet de traiter des problèmes avec des variables de décision discrètes issus de la recherche opérationnelle et de l'optimisation combinatoire.  MINLP va plus loin et étend ses capacités pour traiter également des modèles mathématiques non linéaires. Par conséquent, MINLP trouve sa pertinence dans divers domaines tels que la recherche chimique \cite{pistikopoulos2021process}, l'ingénierie des processus \cite{kocis1989computational}, et la théorie du contrôle \cite{harjunkoski2009integration}.  Cependant, l'état actuel des connaissances limite la vitesse des solveurs, ce qui laisse une place importante à la recherche.
+
+Cette thèse étudie différentes approches pour résoudre plusieurs classes de problèmes MINLP. L'objectif principal de cette thèse est de réduire la disparité entre la gamme limitée d'algorithmes d'optimisation disponibles et les vastes problèmes MINLP. Le thème central de notre étude tourne autour des méthodes de relaxation pour les MINLP. Dans les sections suivantes, nous définirons et catégoriserons les problèmes MINLP, tout en fournissant une vue d'ensemble des techniques fondamentales d'optimisation basées sur la relaxation.
+
+\section{Classifications des problèmes MINLP} %Section - 1.1 
+Un problème MINLP admet formellement la forme suivante:
+\begin{subequations}
+    \label{minlp_}
+    \begin{align}
+       \inf &  \quad f_0(x) \label{minlp_.obj} \\
+    \mst \quad i \in [m] & \quad f_i(x) \in \cS_i  \label{minlp_.consf} \\
+      j \in [n] &  \quad x_j \in [\ell_j, u_j] \label{minlp_.consfbd}\\
+      j \in [k] & \quad x_j \in \bZ, \label{minlp_.consint}
+    \end{align}
+    \end{subequations}
+où $[n]:=\{1,\cdots,n\}$ est l'ensemble d'index de toutes les variables, $[k]:=\{1,\cdots,k\}$ est l'ensemble d'index des variables entières, $[m]:=\{1,\cdots,m\}$ est l'ensemble d'index des contraintes de la fonction dans l'ensemble.  La fonction objective $f_0$ associe les variables à une valeur scalaire. Pour tout $i \in [m]$, $\cS_i$ est un ensemble intégré dans un espace linéaire, et $f_i$ associe les variables à un vecteur dans cet espace linéaire. Pour tout $j \in [n]$, les constantes scalaires $\ell_j , u_j$ sont respectivement les bornes inférieure et supérieure de la variable $x_j$, et $-\infty \le \ell_j < u_j \le +\infty$. Les paramètres ci-dessus sont également appelés \emph{données} du problème MINLP.
+
+Chaque contrainte $x_j \in \bZ$ dans \eqref{minlp_.consint} est appelée une \emph{contrainte d'intégrité}, chaque contrainte $x_j \in [\ell_j, u_j]$ dans \eqref{minlp_.consf} est appelée \emph{contrainte de limite de variable}, et chaque contrainte $f_i(x) \in \cS_i$ est appelée \emph{contrainte de fonction dans l'ensemble}. Une contrainte fonction-en-ensemble est composée d'une fonction et d'un ensemble, et permet de modéliser des contraintes complexes. Par exemple, $\cS_i$ peut être un ensemble non convexe ou un collecteur. Même s'il est possible de représenter les contraintes d'intégralité et de limite de variable comme des contraintes uniques de fonction dans un ensemble, la convention est de les exprimer individuellement.
+
+L'étape initiale de la résolution des problèmes MINLP consiste à identifier leurs types, une procédure cruciale appliquée dans les solveurs MINLP généraux. La traçabilité des problèmes MINLP dépend de leurs types spécifiques, que nous définissons sur la base des types de variables et de contraintes qu'ils contiennent.
+
+
+
+Les types MINLP sont des compositions de types élémentaires. Pour indiquer que le type T est un sous-type du type T', nous utilisons la notation T $\preceq $ T'. En particulier, dans de nombreux langages de programmation, nous utilisons $\varnothing$ pour désigner le type NULL afin de compléter la syntaxe. Le type NULL est le sous-type de n'importe quel type. Nous allons maintenant définir les types élémentaires et leurs sous-types.
+
+
+
+Le type élémentaire TI a des sous-types dans \{entier, binaire, $\varnothing$\}, et il concerne l'aspect discret d'un problème MINLP. S'il y a au moins une variable entière ($k\ne 0$), alors TI est du sous-type "entier". Si, en outre, les bornes de toutes les variables entières se situent dans l'intervalle $[0, 1]$, alors TI est du sous-type "binaire". En l'absence de variables entières ($k=0$), TI est représenté par $\varnothing$ (type NULL). Il est important de noter que le type "binaire" est un sous-type du type "entier" (binaire $\preceq $ entier).
+
+Le type élémentaire TC a des sous-types dans \{linéaire, conique, non-linéaire\}, et il est lié à l'aspect continu d'un problème MINLP. Si chaque fonction $f_i$ est affine et que son ensemble associé $S_i$ est un orthant non négatif/non positif ou un cône zéro, alors TC est du sous-type "linéaire". Si chaque fonction $f_i$ est affine et que son ensemble associé $S_i$ est un cône convexe, alors TC est du sous-type "conique". Cependant, si au moins une fonction $f_i$ est non linéaire ou si au moins un ensemble $\cS_i$ est non polyédrique, alors TC est du sous-type "non linéaire". Il est essentiel de reconnaître que le type "linéaire" est un sous-type du type "conique" (linéaire $\preceq $ conique), et que le type "conique" est un sous-type du type "non linéaire" (conique $\preceq $ non linéaire).
+
+
+Le type conique possède des sous-types qui correspondent à des cônes convexes, tels que le cône polyédrique, le cône de puissance, le cône de second ordre, le cône des matrices semi-définies et le cône des matrices composites. Le type non linéaire possède également des sous-types qui ne font pas partie du type conique, tels que le type polynomial et le type signomial.
+
+
+Le type élémentaire TM a des sous-types dans \{mixte, $\varnothing$\}, et il capture l'interaction des propriétés discrètes et continues. Lorsque certaines variables entières, mais pas toutes ($0 \ne k \ne n$), sont présentes dans le problème MINLP, le TM est du sous-type "mixte". Cependant, si toutes les variables ($k = n$) ou aucune ($k = 0$) sont entières, alors TM est du sous-type $\varnothing$ (NULL). Il convient de noter que $\varnothing \preceq$ mixte, ce qui signifie qu'un problème continu est un sous-type de problème mixte.
+
+\begin{definition}
+Un type de MINLP est un produit type de TM,TI,TC.
+\end{definition}
+
+Dans un problème MINLP de types élémentaires TM, TI, TC, sa relaxation continue devient un problème de programmation non linéaire (NLP) d'un type de TC. Ainsi, chaque type MINLP a un type dérivé correspondant pour sa relaxation continue.
+
+\begin{definition}
+    Un type dérivé TD d'un type MINLP TM, TI, TC appartient à \{convexe, non-convexe\}. Si une instance de problème de type TC est convexe, alors le type dérivé TD de TC est convexe ; sinon, TD est non convexe.
+\end{definition}
+
+Généralement, les problèmes MINLP sont désignés par le terme de "programmes MTC TI TC", désignant leurs types élémentaires et leurs propriétés discrètes et continues. Parfois, nous examinons également le type dérivé TD, auquel cas nous l'appelons "programme TM TI TC". Pour simplifier les choses, nous utilisons fréquemment des abréviations basées sur une règle simple : nous conservons et mettons en majuscules les lettres initiales de TM, TI, TC et "programme", tandis que TD n'est pas abrégé.
+
+Prenons les exemples suivants pour illustrer notre propos :
+ Si un problème MINLP est du type "mixte, entier, linéaire", il est appelé "programme linéaire mixte en nombres entiers" et est abrégé en MILP. Si le problème MINLP est un MILP et que, de plus, son TI est binaire, il devient un "programme linéaire binaire mixte" et est abrégé en MBLP.  Si le type d'un problème MINLP est "entier, polynomial", son type dérivé est non convexe. Dans ce cas, on parle de "programme polynomial en nombres entiers" (IPP) ou de "programme polynomial en nombres entiers non convexe" (IPP non convexe).
+
+
+Dans la représentation alternative suivante, le problème MINLP peut être considéré comme un problème d'optimisation linéaire sur son ensemble réalisable. Pour transformer la formulation \eqref{minlp_} en cette représentation, les processus suivants peuvent être suivis : ajouter la contrainte $f(x) \le t$, où $t$ est une variable supplémentaire ; changer l'objectif du problème d'optimisation en $\inf t$ ;
+considérer $t$ comme faisant partie des variables du problème.
+Cela donne lieu à la formulation alternative des problèmes MINLP:
+
+ \begin{subequations}
+    \label{minlpref_}
+    \begin{align}
+       \inf &  \quad cx \label{minlpref_.obj} \\
+    \mst \quad i \in [m] & \quad f_i(x) \in \cS_i  \label{minlpref_.consf} \\
+      j \in [n] &  \quad x_j \in [\ell_j, u_j] \label{minlpref_.consfbd}\\
+      j \in [k] & \quad x_j \in \bZ. \label{minlpref_.consint}
+    \end{align}
+    \end{subequations}
+
+    Sans perte de généralité, nous nous concentrons sur les problèmes MINLP représentés dans la formulation de \eqref{minlpref_}.
+    Un problème MINLP est considéré comme \emph{traçable} s'il existe un algorithme capable de l'approximer avec une précision arbitraire en un temps qui est polynomial par rapport à sa taille d'encodage et au niveau de précision souhaité. 
+    Un grand nombre de problèmes MINLP traçables sont des problèmes d'optimisation convexe (continue), et la traçabilité peut être obtenue par l'algorithme de l'ellipsoïde \cite{ecker1983ellipsoid}. Cet algorithme repose sur le concept suivant d'oracle de séparation.
+    
+    \begin{definition}
+      Étant donné un ensemble convexe compact $K \subseteq \bR^n$, un oracle de séparation pour $K$ est un oracle (boîte noire) qui, étant donné un vecteur $x\ dans \bR^n$, renvoie l'un des éléments suivants:
+      \begin{itemize}
+          \item que $x \in K$;          
+          \item Trouver un hyperplan qui sépare $x$ de $K$ : un vecteur $a \in \bR^n$, tel que $a y > a x$ pour tout $y \in K$.
+      \end{itemize}
+    \end{definition} 
+    
+    Puisque nous considérons le problème MINLP comme dans \eqref{minlpref_}, nous appelons la séparation de MINLP
+     la séparation de MINLP comme la séparation de son ensemble réalisable. La classification des problèmes MINLP permet d'identifier la première sous-classe de problèmes MINLP traçables.
+    
+    \begin{lemma}[\cite{vaidya1996new}]
+    Si un problème NLP convexe avec un ensemble réalisable compact possède un oracle de séparation en temps polynomial, alors il est traitable.
+    \end{lemma}
+
+
+
+
+    La programmation linéaire (PL) et la programmation semi-définie (PDS) sont des PNL avec des fonctions objectives linéaires sur des contraintes représentables par des cônes polyédriques et des cônes de matrices semi-définies positives. Il s'agit de sous-types de 
+    MINLP, tous deux dotés d'oracles de séparation en temps polynomial. En revanche, la catégorie plus large des problèmes NLP non convexes est généralement considérée comme intraitable \cite{liberti2019undecidability}. En outre, le MINLP, en tant que super-type englobant le MILP, contient une multitude de problèmes insolubles.
+   
+   Une grande partie de la recherche dans le domaine des MINLP tourne autour d'un principe apparemment évident.
+   
+   \begin{theorem}
+   Si un problème MINLP présente un ensemble réalisable compact et possède un oracle de séparation en temps polynomial pour la coque convexe de cet ensemble, alors il est traitable.    
+   \end{theorem}
+   \begin{proof}
+       Une preuve formelle peut être trouvée plus loin dans \Cref{lem.compacthull_}.
+   \end{proof}
+   
+   
+   Pour quelques problèmes MINLP, les coques convexes de leurs ensembles réalisables sont bien définies et accompagnées d'oracles de séparation en temps polynomial. Par conséquent, ces problèmes MINLP spécifiques sont traçables, ce qui implique que nous pouvons "résoudre" ces problèmes en un temps raisonnable. Le théorème ci-dessus motive les chercheurs à explorer les coques convexes de divers ensembles structurés apparaissant dans les applications. 
+   
+   Néanmoins, pour une grande partie des problèmes MINLP, la construction des coques convexes de leurs ensembles réalisables est une tâche redoutable. La réalisation de cette tâche impliquerait que de nombreux problèmes $\mathcal{NP}$ difficiles sont, de manière inattendue, traçables. Par conséquent, la recherche actuelle est centrée sur l'identification et l'exploitation d'approximations extérieures pratiques pour ces ensembles.
+   
+   Bien que la résolution de ces problèmes "approchés" ne résolve pas directement les problèmes originaux, ils peuvent servir de tremplin précieux pour résoudre le problème original à l'aide de l'algorithme détaillé dans la section suivante. Cette caractéristique souligne la nature profonde de la recherche en cours dans le domaine des MINLP.
+
+   \section{Optimisation MINLP basée sur la relaxation}
+
+   La résolution des problèmes MINLP non convexes pose des défis importants. Néanmoins, il existe une classe notable de problèmes MINLP non convexes pour lesquels un algorithme d'énumération implicite reste utile, étant donné qu'ils remplissent la condition suivante.
+   
+   \begin{definition}
+       Un problème MINLP \eqref{minlpref_} est dit borné si, pour tout $j \in [n]$, $-\infty < \ell_j < u_j <+\infty$. 
+   \end{definition}
+   
+   Pour un problème MINLP dont l'ensemble réalisable est compact, il existe toujours un hypercube qui contient son ensemble réalisable. Dans la suite, nous considérons les problèmes MINLP à contrainte de boîte. 
+   
+    L'algorithme sBB (spatial Branch-and-Bound), un algorithme d'énumération implicite, sert de cadre fondamental à de nombreux solveurs MINLP d'usage général. En général, cet algorithme implique trois procédures fondamentales : Le "primal bounding", le "dual bounding" et le "branching".
+   
+   
+   
+   Tout au long de l'exécution de l'algorithme, il garde la trace de deux bornes critiques : la borne duale et la borne primale. La meilleure solution découverte au cours de l'exécution de l'algorithme, souvent appelée solution en place, est utilisée pour établir la borne primale. L'objectif principal de la borne primale est de trouver une solution réalisable au problème MINLP.
+   
+   L'algorithme sBB parcourt implicitement l'espace de recherche défini par la contrainte de la boîte du problème MINLP. Ce processus implique la subdivision de l'espace de recherche en régions plus petites et le traitement de sous-problèmes MINLP contraints dans ces sous-espaces de recherche. L'algorithme sBB se branche non seulement sur des variables entières comme l'algorithme BB classique pour les MILP, mais aussi sur des variables continues dans des expressions non linéaires et non convexes. Ce dernier comportement est appelé \emph{branchement spatial}, qui permet des approximations plus fines des expressions non linéaires dans des régions plus petites.
+   
+   La borne duale locale est une borne inférieure pour la valeur objective de toute solution dans un sous-problème MINLP contraint particulier. Si la borne primale tombe en dessous de la borne duale locale pour une région donnée, cela signifie qu'aucune solution meilleure que la solution en place ne peut exister dans cette région peu prometteuse, ce qui permet d'élaguer la recherche dans cette région.
+
+   Toutes les régions non élaguées restantes constituent collectivement l'espace de recherche "ouvert" que l'algorithme sBB doit explorer pour assurer sa convergence. La borne duale retenue par l'algorithme sBB représente la plus petite des bornes duales locales dans toutes ces régions non élaguées. L'écart de dualité, qui est la différence entre la borne primaire et la borne duale, sert à certifier la convergence de l'algorithme sBB.
+
+   Pour naviguer méthodiquement dans la région de recherche, une stratégie d'énumération systématique est employée, appelée \emph{règle de branchement}.  L'objectif d'une règle de branchement diffère : il peut s'agir de trouver une bonne solution primaire ou de réduire l'écart. 
+   
+  
+  
+  Afin d'explorer méthodiquement la région de recherche, l'algorithme sBB utilise une approche d'énumération systématique connue sous le nom de \emph{règle de branchement}. L'objectif d'une règle de branchement peut varier ; elle peut viser à découvrir une solution primale prometteuse ou à réduire l'écart entre les bornes.
+  
+  En raison de la nature modulaire de l'algorithme sBB, les composantes de la délimitation primale, de la délimitation duale et des règles de branchement peuvent être examinées indépendamment et intégrées de manière transparente, ce qui s'apparente à la philosophie de conception du solveur \scip \cite{bestuzheva2023global}. Les discussions approfondies sur les règles primales de bornage et de branchement sortent du cadre de cette thèse, et les lecteurs sont invités à consulter \cite{belotti2009branching} et \cite{berthold2015heuristic} pour des aperçus détaillés.
+  
+  Comme nous le montrerons, de nombreuses techniques de bornage dual reposent sur la notion de "relaxations". C'est pourquoi nous insistons fortement sur le fait que l'algorithme sBB est un "algorithme MINLP basé sur la relaxation". Dans la section suivante, nous donnons des définitions formelles des relaxations.
+  
+  \begin{definition}
+    Etant donné un problème MINLP, sa relaxation est un autre problème MINLP, qui contient toutes les solutions réalisables du problème MINLP original.
+  \end{definition}
+  
+  La définition ci-dessus est générale, et nous montrerons des méthodes concrètes pour construire des relaxations dans le chapitre suivant. Nous examinons tout d'abord les conséquences des relaxations.
+  Normalement, un problème relaxé devrait être traitable, éventuellement sous la forme d'un problème d'optimisation convexe, ou au moins, il devrait être plus abordable en termes de calcul que le problème original. Une approche illustrative implique une stratégie géométrique, dans laquelle une approximation extérieure de l'ensemble réalisable du problème original est construite, résultant en un problème relaxé. La valeur optimale de ce problème relaxé est appelée "valeur de relaxation optimale", et la meilleure solution pour le problème relaxé est appelée "solution de relaxation optimale". De cette manière, l'algorithme sBB dérive une borne duale locale, comme indiqué ci-dessous.
+
+  \begin{lemma}
+    La valeur optimale de la relaxation est au maximum la valeur optimale du problème original.
+\end{lemma}
+\begin{proof}
+    Ceci est dû au fait que l'ensemble réalisable du problème de relaxation inclut celui du problème original.
+\end{proof}
+
+
+ L'observation suivante est simple mais fondamentale pour l'optimisation non convexe.
+
+\begin{lemma}
+\label{lem.compacthull_}
+    Pour un ensemble compact $K \subseteq \bR^n$, l'optimisation linéaire sur $K$ est équivalente à l'optimisation linéaire sur $\conv(K)$.
+\end{lemma}
+\begin{proof}
+    Il est évident que $\min_{x \in K} c x \ge \min_{x \in \conv(K)} c x$. De plus, pour tout $x = \sum_{i}$.  Par conséquent, $\min_{x \in K} c x = \min_{x \in \conv(K)} c x$. 
+\end{proof}
+
+
+Un problème de relaxation est considéré comme "étanche" lorsque sa solution optimale est également optimale pour le problème original. Par conséquent, l'obtention de l'étanchéité nécessite souvent que l'ensemble réalisable du problème relaxé corresponde à la coque convexe de l'ensemble réalisable du problème original. Néanmoins, la construction de la coque convexe peut s'avérer difficile. Par conséquent, il est souvent plus pratique de chercher une approximation extérieure de l'ensemble $K$ qui trouve un équilibre entre la qualité de la relaxation et l'efficacité de la relaxation.
+
+
+Tout au long de l'exécution de l'algorithme sBB, les règles primales de bornage et de branchement peuvent utiliser les informations obtenues à partir de la solution de relaxation optimale. Par exemple, les heuristiques de recherche locale peuvent commencer leur exploration à partir d'une solution de relaxation optimale, en l'utilisant comme point de départ pour guider leur recherche.
+
+Néanmoins, des tâches spécifiques, telles que la réduction de l'écart de dualité, peuvent exiger exclusivement une limite duale locale sans nécessairement nécessiter la solution de relaxation. Par conséquent, ce concept introduit une interprétation plus limitée de la relaxation.
+
+\begin{definition}
+     Étant donné un problème MINLP, sa relaxation objective est un autre problème MINLP dont la valeur optimale est au maximum la valeur optimale du problème original.
+\end{definition}
+
+Avec l'introduction mentionnée ci-dessus, cette thèse s'attaque au défi de construire des relaxations pour un problème MINLP structuré ou une classe de problèmes MINLP structurés. Cela permet de trouver des approximations traçables qui peuvent aider à résoudre le problème original de manière efficace. Suite à l'analyse ci-dessus, la thèse traite du problème de la construction d'approximations extérieures convexes pour des ensembles non convexes.
+
+\section{Structure de la thèse}
+Nous organisons cette thèse comme suit. Dans \Cref{chap.basic}, nous résumons les outils de relaxation de base dans la littérature. Dans \Cref{chap.theorystructure}, nous développons et introduisons quelques résultats de relaxation avancés pour les problèmes structurés. Dans les chapitres suivants, nous étudions les problèmes MINLP structurés et utilisons nos outils de relaxation pour résoudre ces problèmes. Dans \Cref{chap.sig}, nous étudions la programmation signomiale et nous proposons des coupes d'intersection et des coupes d'approximation extérieure pour relaxer le problème.  Dans \Cref{chap.submax}, nous étudions la maximisation sous-modulaire et ses problèmes généralisés, et nous proposons des coupes d'intersection pour approximer ces problèmes.  Dans \Cref{chap.sbp}, nous étudions le problème submodulaire d'empaquetage de bacs, nous appliquons la relaxation de Dantzig-Wolfe (DW) et le branch-and-price pour résoudre ce problème, et nous utilisons un algorithme d'approximation linéaire par morceaux adapté pour résoudre le problème de tarification. Dans \Cref{chap.bp}, nous considérons le problème du flux de marchandises multiples non divisible dans les réseaux sans fil, où le codage de réseau est employé pour réduire le trafic. Nous comparons deux méthodes de linéarisation pour les termes quadratiques booléens apparaissant dans ce problème, et nous proposons la relaxation de Dantzig Wolfe et l'algorithme branch-and-price pour résoudre le problème MILP linéarisé. Dans \Cref{chap.cflg}, nous étudions le problème du recouvrement continu sur les réseaux et introduisons des formulations MILP big-M pour modéliser les fonctions linéaires non convexes par morceaux.  Dans \Cref{chap.con}, nous concluons cette thèse avec des perspectives sur la recherche future de MINLP.
+  
+\section{Publications antérieures} 
+
+Certaines parties de la thèse sont publiées à l'avance. \Cref{chap.cflg} est basé sur un travail conjoint avec Mercedes Pelegrín qui est publié dans l'Omega International Journal of Management Science \cite{PELEGRIN2023102835}.  \Cref{chap.bp} est basé sur un travail conjoint avec Sonia Haddad Vanier qui est publié dans la revue Networks \cite{xu2022branch}.  \Cref{chap.sbp} est basé sur un travail conjoint avec Claudia D'Ambrosio, Sonia Haddad Vanier, et Emiliano Traversi qui sera publié dans EURO Journal on Computational Optimization \cite{xu2022branch}. \Cref{chap.submax} est basé sur un travail conjoint avec Leo Liberti qui fait l'objet d'une révision majeure dans Mathematical Programming Series B. \Cref{chap.sig} est basé sur un travail conjoint soumis avec Claudia D'Ambrosio, Sonia Haddad-Vanier, Leo Liberti.

@@ -1,0 +1,142 @@
+\thispagestyle {empty}
+\contentsline {chapter}{List of figures}{xvii}{chapter*.6}%
+\contentsline {chapter}{List of tables}{xix}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction en français}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Classifications des problèmes MINLP}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Optimisation MINLP basée sur la relaxation}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Structure de la thèse}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Publications antérieures}{9}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Introduction}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Classifications of MINLP problems}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Relaxation-based MINLP optimization}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Structure of the thesis}{18}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Prior publications}{18}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Theory: basic relaxation methods}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Relaxations via lifting}{19}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Dantzig-Wolfe relaxation}{20}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Projection}{22}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Factorable programming}{23}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Certificate-based relaxation}{24}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Relaxations via submodularity}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Convex envelope}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Concave overestimator}{28}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Relaxations via piece-wise linear approximations}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Relaxation tightening via intersection cuts}{31}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conclusion}{33}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Theory: advanced structural results}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}$\mathcal S$-free sets for structured sets}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Maximal $\mathcal S$-free sets for lifted sets}{35}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Maximal $\mathcal S$-free for DCC constraints}{37}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}$\mathcal S$-free sets in submodular optimization}{40}{subsection.4.1.3}%
+\contentsline {subsubsection}{Extensions of submodular functions}{41}{section*.11}%
+\contentsline {subsubsection}{Boolean-hypograph-free sets for submodular functions}{44}{section*.12}%
+\contentsline {subsubsection}{Extensions to SS functions}{48}{section*.14}%
+\contentsline {section}{\numberline {4.2}Convex envelopes of supermodular functions}{50}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Cutting planes for signomial programming }{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{53}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Literature review}{54}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Contribution}{55}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Notation}{56}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Outline of the chapter}{56}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Signomial-lift-free sets and intersection cuts}{56}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Signomial-lift-free and signomial-term-free sets}{56}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Computing intersection cuts}{59}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Convex outer approximation}{60}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Outer approximation cuts}{61}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Convex envelopes of bivariate supermodular functions}{62}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Convexity and reverse-convexity}{63}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Computational results}{63}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusion}{65}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Intersection cuts for submodular optimization}{67}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{67}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Literature review}{67}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Contribution}{68}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Outline of the chapter}{69}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Application}{69}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Boolean multilinear constraints}{69}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}D-optimal design}{72}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Separation problem}{73}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Computational results}{76}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Supplementary branch-and-bound computational results}{83}{subsection.6.4.1}%
+\contentsline {section}{\numberline {6.5}Conclusion}{84}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Branch-and-price for submodular bin packing}{85}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{85}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Literature review}{88}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Contribution}{90}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Outline of the chapter}{91}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Set cover formulation}{91}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Branch and price}{92}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Branching rule}{93}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Column generation}{93}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Primal heuristics}{95}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Dual bound computation}{95}{subsection.7.3.4}%
+\contentsline {section}{\numberline {7.4}Solving the pricing problem}{95}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Pricing heuristic}{96}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}BSOCP formulation}{96}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}MBQCP formulation}{99}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}PWL relaxation}{100}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}Exact PWL-B\&C algorithm}{103}{subsection.7.4.5}%
+\contentsline {subsection}{\numberline {7.4.6}Hybrid pricing strategy}{106}{subsection.7.4.6}%
+\contentsline {section}{\numberline {7.5}Computational experiments}{107}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Benchmarks}{107}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Experimental setups}{109}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}Comparative analysis of results}{111}{subsection.7.5.3}%
+\contentsline {section}{\numberline {7.6}Conclusion}{113}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Branch-and-price for coding-aware routing in wireless networks}{115}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{115}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Literature review}{116}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Contribution}{116}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Outline the chapter}{117}{subsection.8.1.3}%
+\contentsline {section}{\numberline {8.2}Models and notation}{117}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Energy consumption}{119}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Clique capacity constraint}{119}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Network coding}{121}{subsection.8.2.3}%
+\contentsline {subsubsection}{Effects on clique capacity constraints}{122}{section*.36}%
+\contentsline {subsubsection}{Effects on energy consumption}{123}{section*.37}%
+\contentsline {subsection}{\numberline {8.2.4}Complexity analysis}{124}{subsection.8.2.4}%
+\contentsline {section}{\numberline {8.3}Mathematical Formulations}{124}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Compact edge-based formulations}{124}{subsection.8.3.1}%
+\contentsline {subsubsection}{MBQP formulation}{124}{section*.38}%
+\contentsline {subsubsection}{Edge linearization formulation}{125}{section*.39}%
+\contentsline {subsubsection}{Edge balance formulation}{126}{section*.40}%
+\contentsline {subsection}{\numberline {8.3.2}Path-based formulation}{128}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Column generation}{129}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Reduced cost pricing}{129}{subsection.8.4.1}%
+\contentsline {subsubsection}{Extended Graph}{130}{section*.43}%
+\contentsline {subsection}{\numberline {8.4.2}Farkas pricing}{136}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}Branching rule}{137}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Computational Results}{139}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Instances}{139}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Numerical comparisons of formulations}{141}{subsection.8.6.2}%
+\contentsline {subsection}{\numberline {8.6.3}Effects of network coding}{142}{subsection.8.6.3}%
+\contentsline {section}{\numberline {8.7}Conclusion}{144}{section.8.7}%
+\contentsline {chapter}{\numberline {9}Piece-wise linear modelling in continuous covering on networks}{147}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Introduction}{147}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Literature review}{150}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Contribution}{151}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Outline the chapter}{151}{subsection.9.1.3}%
+\contentsline {section}{\numberline {9.2}Covering characterization}{152}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Observations}{152}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Covering conditions}{153}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Covering delimitation and simplification}{154}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Characterization of complete covers}{157}{subsection.9.2.4}%
+\contentsline {section}{\numberline {9.3}MILP formulation}{159}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Comparative insights with respect to an existing MILP}{161}{subsection.9.3.1}%
+\contentsline {section}{\numberline {9.4}Strengthening}{162}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Constants tightening}{162}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Valid inequalities}{163}{subsection.9.4.2}%
+\contentsline {section}{\numberline {9.5}Network processing}{165}{section.9.5}%
+\contentsline {section}{\numberline {9.6}A reduced formulation for networks with long edges}{170}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Computational results}{173}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Experiment Setup}{173}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Comparative Analysis of Continuous Models}{176}{subsection.9.7.2}%
+\contentsline {subsection}{\numberline {9.7.3}Comparative Analysis of Continuous and Discrete Models}{177}{subsection.9.7.3}%
+\contentsline {section}{\numberline {9.8}Conclusions}{180}{section.9.8}%
+\contentsline {chapter}{\numberline {10}Conclusions and perspective}{183}{chapter.10}%
+\contentsline {subsection}{\numberline {10.0.1}Conclusions}{183}{subsection.10.0.1}%
+\contentsline {section}{\numberline {10.1}Perspectives in algorithm design}{184}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Extended formulations vs projected formulations}{184}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Modeling power: the lack of convexity and nonlinear function types}{185}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}Approximations vs. relaxations}{186}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Perspectives of solver framework}{186}{section.10.2}%
+\contentsline {chapter}{References}{189}{chapter*.67}%

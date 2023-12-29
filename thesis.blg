@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: title.aux
+A level-1 auxiliary file: Dedication/dedication.aux
+A level-1 auxiliary file: Declaration/declaration.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Abstract/abstract_fr.aux
+A level-1 auxiliary file: nomenclature.aux
+A level-1 auxiliary file: Chapter1/chapter1_fr.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapterbasic.aux
+A level-1 auxiliary file: Chaptertheory/chapteradvanced.aux
+A level-1 auxiliary file: Chaptersig/chaptersig.aux
+A level-1 auxiliary file: Chaptersub/chaptersub.aux
+A level-1 auxiliary file: Chaptersbp/chaptersbp.aux
+A level-1 auxiliary file: Chapterbpnet/chapterbpnet.aux
+A level-1 auxiliary file: Chaptercflg/chaptercflg.aux
+A level-1 auxiliary file: ChapterCon/con.aux
+The style file: siam.bst
+A level-1 auxiliary file: final.aux
+Reallocated field_info (elt_size=4) to 12337 items from 5000.
+Database file #1: References/references.bib
+Warning--to sort, need author or key in BibEntry2023Jul
+Warning--to sort, need author or key in BibEntry2023Jul2
+Warning--to sort, need author or key in BibEntry2023Jul3
+Warning--empty year in Balas
+Warning--empty institution in bonami2015recent
+Warning--can't use both volume and number fields in pessoa2021solving
+Warning--can't use both author and editor fields in Schobel2019
+Warning--can't use both author and editor fields in Vanderbeck2010
+You've used 319 entries,
+            2030 wiz_defined-function locations,
+            2129 strings with 57137 characters,
+and the built_in function-call counts, 126988 in all, are:
+= -- 12719
+> -- 5372
+< -- 2
++ -- 2141
+- -- 1779
+* -- 9668
+:= -- 18816
+add.period$ -- 330
+call.type$ -- 319
+change.case$ -- 1820
+chr.to.int$ -- 0
+cite$ -- 327
+duplicate$ -- 5860
+empty$ -- 9158
+format.name$ -- 1782
+if$ -- 27767
+int.to.chr$ -- 0
+int.to.str$ -- 319
+missing$ -- 318
+newline$ -- 971
+num.names$ -- 653
+pop$ -- 1599
+preamble$ -- 1
+purify$ -- 1517
+quote$ -- 0
+skip$ -- 5452
+stack$ -- 0
+substring$ -- 9644
+swap$ -- 2797
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1240
+warning$ -- 8
+while$ -- 1380
+width$ -- 322
+write$ -- 2906
+(There were 8 warnings)

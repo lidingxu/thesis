@@ -1,0 +1,1573 @@
+\begin{thebibliography}{100}
+
+\bibitem{BibEntry2023Jul2}
+{\em {SCIP Doxygen Documentation: examples/GMI/src/sepa{$\_$}gmi.c Source
+  File}}, July 2023.
+\newblock [Online; accessed 11. Jul. 2023].
+
+\bibitem{BibEntry2023Jul}
+{\em {SCIP Doxygen Documentation: How to add separators}}, July 2023.
+\newblock [Online; accessed 6. Jul. 2023].
+
+\bibitem{BibEntry2023Jul3}
+{\em {SCIP Doxygen Documentation: nlhdlr{$\_$}quadratic.c Source File}}, July
+  2023.
+\newblock [Online; accessed 14. Jul. 2023].
+
+\bibitem{abdul2017efficient}
+{\sc S.~Abdul-Nabi, A.~Khalil, P.~Mary, and J.~F. H{\'{e}}lard}, {\em
+  {Efficient network coding solutions for limiting the effect of packet loss}},
+  Eurasip Journal on Wireless Communications and Networking, 2017 (2017),
+  p.~35.
+
+\bibitem{achterberg2008constraint}
+{\sc T.~Achterberg, T.~Berthold, T.~Koch, and K.~Wolter}, {\em {Constraint
+  integer programming: A new approach to integrate CP and MIP}}, in Lecture
+  Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), vol.~5015 LNCS, Springer,
+  2008, pp.~6--20.
+
+\bibitem{adams1986tight}
+{\sc W.~P. Adams and H.~D. Sherali}, {\em A tight linearization and an
+  algorithm for zero-one quadratic programming problems}, Management Science,
+  32 (1986), pp.~1274--1290.
+
+\bibitem{health}
+{\sc B.~Adenso-Díaz and F.~Rodríguez}, {\em A simple search heuristic for the
+  mclp: application to the location of ambulance bases in a rural region},
+  Omega, 25 (1997), p.~181–187.
+
+\bibitem{ahmed2011maximizing}
+{\sc S.~Ahmed and A.~Atamt{\"u}rk}, {\em Maximizing a class of submodular
+  utility functions}, Mathematical programming, 128 (2011), pp.~149--169.
+
+\bibitem{akgun2015risk}
+{\sc {\.I}.~Akg{\"u}n, F.~G{\"u}m{\"u}{\c{s}}bu{\u{g}}a, and B.~Tansel}, {\em
+  Risk based facility location by using fault tree analysis in disaster
+  management}, Omega, 52 (2015), pp.~168--179.
+
+\bibitem{akpakwu2017survey}
+{\sc G.~A. Akpakwu, B.~J. Silva, G.~P. Hancke, and A.~M. Abu-Mahfouz}, {\em {A
+  survey on 5G networks for the internet of things: Communication technologies
+  and challenges}}, IEEE Access, 6 (2017), pp.~3619--3647.
+
+\bibitem{al1983jointly}
+{\sc F.~A. Al-Khayyal and J.~E. Falk}, {\em Jointly constrained biconvex
+  programming}, Mathematics of Operations Research, 8 (1983), pp.~273--286.
+
+\bibitem{allman2021branch}
+{\sc A.~Allman and Q.~Zhang}, {\em Branch-and-price for a class of nonconvex
+  mixed-integer nonlinear programs}, Journal of Global Optimization, 81 (2021),
+  pp.~861--880.
+
+\bibitem{almeida2020proposal}
+{\sc N.~C. Almeida, R.~P. Rolle, E.~P. Godoy, P.~Ferrari, and E.~Sisinni}, {\em
+  Proposal of a hybrid {LoRa} mesh / {LoRaWAN} network}, in 2020 IEEE
+  International Workshop on Metrology for Industry 4.0 IoT, 2020, pp.~702--707.
+
+\bibitem{alvarez2012models}
+{\sc E.~{\'A}lvarez-Miranda, V.~Cacchiani, T.~Dorneth, M.~J{\"u}nger, F.~Liers,
+  A.~Lodi, T.~Parriani, and D.~R. Schmidt}, {\em Models and algorithms for
+  robust network design with several traffic scenarios}, in Combinatorial
+  Optimization, A.~R. Mahjoub, V.~Markakis, I.~Milis, and V.~T. Paschos, eds.,
+  Berlin, Heidelberg, 2012, Springer Berlin Heidelberg, pp.~261--272.
+
+\bibitem{alvelos2003comparing}
+{\sc F.~Alvelos and J.~M.~V. de~Carvalho}, {\em {Comparing branch-and-price
+  algorithms for the unsplittable multicommodity flow problem}}, in
+  International Network Optimization Conference, sn, 2003, pp.~7--12.
+
+\bibitem{andersen2010}
+{\sc K.~Andersen, Q.~Louveaux, and R.~Weismantel}, {\em {An analysis of mixed
+  integer linear sets based on lattice point free convex sets}}, Mathematics of
+  Operations Research, 35 (2010), pp.~233--256.
+
+\bibitem{andersen2007}
+{\sc K.~Andersen, Q.~Louveaux, R.~Weismantel, and L.~A. Wolsey}, {\em
+  Inequalities from two rows of a simplex tableau}, in Integer Programming and
+  Combinatorial Optimization, M.~Fischetti and D.~P. Williamson, eds., Berlin,
+  Heidelberg, 2007, Springer Berlin Heidelberg, pp.~1--15.
+
+\bibitem{aps2018mosek}
+{\sc M.~ApS}, {\em Mosek modeling cookbook}, 2018.
+
+\bibitem{atamturk2020submodularity}
+{\sc A.~Atamt{\"u}rk and A.~G{\'o}mez}, {\em Submodularity in conic quadratic
+  mixed 0--1 optimization}, Operations Research, 68 (2020), pp.~609--630.
+
+\bibitem{atamturk2022supermodularity2}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Supermodularity and
+  valid inequalities for quadratic optimization with indicators}, Mathematical
+  Programming,  (2022), pp.~1--44.
+
+\bibitem{atamturk2008polymatroids}
+{\sc A.~Atamt{\"{u}}rk and V.~Narayanan}, {\em {Polymatroids and mean-risk
+  minimization in discrete optimization}}, Operations Research Letters, 36
+  (2008), pp.~618--622.
+
+\bibitem{atamturk2009submodular}
+{\sc A.~Atamt{\"u}rk and V.~Narayanan}, {\em The submodular knapsack polytope},
+  Discrete Optimization, 6 (2009), pp.~333--344.
+
+\bibitem{Atamturk2021}
+{\sc A.~Atamt{\"{u}}rk and V.~Narayanan}, {\em {Submodular function
+  minimization and polarity}}, Mathematical Programming,  (2021).
+
+\bibitem{atamturk2002splittable}
+{\sc A.~Atamt{\"{u}}rk and D.~Rajan}, {\em {On splittable and unsplittable flow
+  capacitated network design arc-set polyhedra}}, Mathematical Programming,
+  Series B, 92 (2002), pp.~315--333.
+
+\bibitem{baccelli2009}
+{\sc E.~Baccelli, J.~A. Cordero, and P.~Jacquet}, {\em Multi-point relaying
+  techniques with ospf on ad hoc networks}, in 2009 Fourth International
+  Conference on Systems and Networks Communications, 2009, pp.~53--62.
+
+\bibitem{baccelli2010optimization}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Optimization of
+  critical data synchronization via link overlay rng in mobile ad hoc
+  networks}, in The 7th IEEE International Conference on Mobile Ad-hoc and
+  Sensor Systems (IEEE MASS 2010), IEEE, 2010, pp.~402--411.
+
+\bibitem{baccelli2010ospf}
+{\sc E.~Baccelli, J.~A.~C. Fuertes, and P.~Jacquet}, {\em Ospf over multi-hop
+  ad hoc wireless communications}, International Journal of Computer Networks
+  \& Communications, 2 (2010), pp.~37--56.
+
+\bibitem{jain2005impact}
+{\sc S.~A. Baharudin, M.~F. Zuhairi, and H.~Dao}, {\em {Impact of interference
+  on wireless mesh network performance}}, ARPN Journal of Engineering and
+  Applied Sciences, 14 (2019), pp.~1389--1395.
+
+\bibitem{Balas}
+{\sc E.~Balas}, {\em {Disjunctive Programming}}, Springer International
+  Publishing, Cham, Switzerland.
+
+\bibitem{balas1971intersection}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Intersection
+  cuts—a new type of cutting planes for integer programming}, Operations
+  Research, 19 (1971), pp.~19--39.
+
+\bibitem{balas1971}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Intersection
+  cuts—a new type of cutting planes for integer programming}}, Operations
+  Research, 19 (1971), pp.~19--39.
+
+\bibitem{baldomero2022upgrading}
+{\sc M.~Baldomero-Naranjo, J.~Kalcsics, A.~Marín, and A.~M. Rodríguez-Chía},
+  {\em Upgrading edges in the maximal covering location problem}, European
+  Journal of Operational Research, 303 (2022), pp.~14--36.
+
+\bibitem{Baldomero}
+{\sc M.~Baldomero-Naranjo, J.~Kalcsics, and A.~Rodríguez-Chía}, {\em Minmax
+  regret maximal covering location problems with edge demands}, Computers \&
+  Operations Research, 130 (2021), p.~105181.
+
+\bibitem{bansal2017planar}
+{\sc M.~Bansal and K.~Kianfar}, {\em Planar maximum coverage location problem
+  with partial coverage and rectangular demand and service zones}, INFORMS
+  Journal on Computing, 29 (2017), pp.~152--169.
+
+\bibitem{bao2015global}
+{\sc X.~Bao, A.~Khajavirad, N.~V. Sahinidis, and M.~Tawarmalani}, {\em Global
+  optimization of nonconvex problems with multilinear intermediates},
+  Mathematical Programming Computation, 7 (2015), pp.~1--37.
+
+\bibitem{barnhart2000using}
+{\sc C.~Barnhart, C.~A. Hane, and P.~H. Vance}, {\em {Using
+  branch-and-price-and-cut to solve origin-destination integer multicommodity
+  flow problems}}, Operations Research, 48 (2000), pp.~318--326.
+
+\bibitem{barnhart1998branch}
+{\sc C.~Barnhart, E.~L. Johnson, G.~L. Nemhauser, M.~W. Savelsbergh, and P.~H.
+  Vance}, {\em {Branch-and-price: Column generation for solving huge integer
+  programs}}, Operations Research, 46 (1998), pp.~316--329.
+
+\bibitem{basu2010maximal}
+{\sc A.~Basu, M.~Conforti, G.~Cornu{\'e}jols, and G.~Zambelli}, {\em Maximal
+  lattice-free convex sets in linear subspaces}, Mathematics of Operations
+  Research, 35 (2010), pp.~704--720.
+
+\bibitem{basu2010}
+{\sc A.~Basu, M.~Conforti, G.~Cornu{\'{e}}jols, and G.~Zambelli}, {\em {Maximal
+  lattice-free convex sets in linear subspaces}}, Mathematics of Operations
+  Research, 35 (2010), pp.~704--720.
+
+\bibitem{basu2019}
+{\sc A.~Basu, S.~S. Dey, and J.~Paat}, {\em {Nonunique lifting of integer
+  variables in minimal inequalities}}, SIAM Journal on Discrete Mathematics, 33
+  (2019), pp.~755--783.
+
+\bibitem{batun2011operating}
+{\sc S.~Batun, B.~T. Denton, T.~R. Huschka, and A.~J. Schaefer}, {\em
+  {Operating room pooling and parallel surgery processing under uncertainty}},
+  INFORMS Journal on Computing, 23 (2011), pp.~220--237.
+
+\bibitem{baudart2021pipeline}
+{\sc G.~Baudart, M.~Hirzel, K.~Kate, P.~Ram, A.~Shinnar, and J.~Tsay}, {\em
+  Pipeline combinators for gradual automl}, Advances in Neural Information
+  Processing Systems, 34 (2021), pp.~19705--19718.
+
+\bibitem{bauguion2018maximum}
+{\sc P.-O. Bauguion, C.~D'Ambrosio, and L.~Liberti}, {\em Maximum concurrent
+  flow with incomplete data}, in Combinatorial Optimization, J.~Lee,
+  G.~Rinaldi, and A.~R. Mahjoub, eds., Cham, 2018, Springer International
+  Publishing, pp.~77--88.
+
+\bibitem{BelaidouniB07}
+{\sc M.~Belaidouni and W.~Ben{-}Ameur}, {\em On the minimum cost
+  multiple-source unsplittable flow problem}, {RAIRO} Oper. Res., 41 (2007),
+  pp.~253--273.
+
+\bibitem{homeland}
+{\sc J.~Bell, S.~Griffis, W.~Cunningham, and J.~Eberlan}, {\em Location
+  optimization of strategic alert sites for homeland defense}, Omega, 39
+  (2011), p.~151–158.
+
+\bibitem{belotti2015conic}
+{\sc P.~Belotti, J.~C. G{\'o}ez, I.~P{\'o}lik, T.~K. Ralphs, and T.~Terlaky},
+  {\em A conic representation of the convex hull of disjunctive sets and conic
+  cuts for integer second order cone optimization}, in Numerical Analysis and
+  Optimization, Springer, 2015, pp.~1--35.
+
+\bibitem{minlpsurveyAN}
+{\sc P.~Belotti, C.~Kirches, S.~Leyffer, J.~Linderoth, J.~Luedtke, and
+  A.~Mahajan}, {\em Mixed-integer nonlinear optimization}, Acta Numerica, 22
+  (2013), pp.~1--131.
+
+\bibitem{couenne}
+{\sc P.~Belotti, J.~Lee, L.~Liberti, F.~Margot, and A.~W{\"a}chter}, {\em
+  Branching and bounds tighteningtechniques for non-convex minlp}, Optimization
+  Methods \& Software, 24 (2009), pp.~597--634.
+
+\bibitem{belotti2009branching}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Branching and bounds
+  tighteningtechniques for non-convex minlp}, Optimization Methods \& Software,
+  24 (2009), pp.~597--634.
+
+\bibitem{ben2007acceleration}
+{\sc W.~Ben-Ameur and J.~Neto}, {\em {Acceleration of cutting-plane and column
+  generation algorithms: Applications to network design}}, Networks, 49 (2007),
+  pp.~3--17.
+
+\bibitem{ben2001polyhedral}
+{\sc A.~Ben-Tal and A.~Nemirovski}, {\em {On polyhedral approximations of the
+  second-order cone}}, Mathematics of Operations Research, 26 (2001),
+  pp.~193--205.
+
+\bibitem{rhaiem2017information}
+{\sc O.~BenRhaiem and L.~Chaari}, {\em {Information transmission based on
+  network coding over wireless networks: A survey}}, Telecommunication Systems,
+  65 (2017), pp.~551--565.
+
+\bibitem{Bergman19}
+{\sc D.~Bergman}, {\em An exact algorithm for the quadratic multiknapsack
+  problem with an application to event seating}, INFORMS Journal on Computing,
+  31 (2019), pp.~477--492.
+
+\bibitem{berjon2015optimal}
+{\sc D.~Berj{\'{o}}n, G.~Gallego, C.~Cuevas, F.~Mor{\'{a}}n, and
+  N.~Garc{\'{i}}a}, {\em {Optimal piecewise linear function approximation for
+  gpu-based applications}}, IEEE Transactions on Cybernetics, 46 (2015),
+  pp.~2584--2595.
+
+\bibitem{berman2011big}
+{\sc O.~Berman, Z.~Drezner, and D.~Krass}, {\em Big segment small segment
+  global optimization algorithm on networks}, Networks, 58 (2011), pp.~1--11.
+
+\bibitem{Kalsics}
+{\sc O.~Berman, J.~Kalcsics, and D.~Krass}, {\em On covering location problems
+  on networks with edge demand}, Computers \& Operations Research, 74 (2016),
+  pp.~214--227.
+
+\bibitem{berman2016covering}
+{\sc O.~Berman, J.~Kalcsics, and D.~Krass}, {\em On covering location problems
+  on networks with edge demand}, Computers \& Operations Research, 74 (2016),
+  pp.~214--227.
+
+\bibitem{berthold2015heuristic}
+{\sc T.~Berthold}, {\em Heuristic algorithms in global MINLP solvers}, Verlag
+  Dr. Hut, 2015.
+
+\bibitem{berthold2012extending}
+{\sc T.~Berthold, S.~Heinz, and S.~Vigerske}, {\em Extending a {CIP} framework
+  to solve {MIQCPs}}, in Mixed Integer Nonlinear Programming, J.~Lee and
+  S.~Leyffer, eds., New York, NY, 2012, Springer New York, pp.~427--444.
+
+\bibitem{bertsimas2018robust}
+{\sc D.~Bertsimas, V.~Gupta, and N.~Kallus}, {\em Robust sample average
+  approximation}, Mathematical Programming, 171 (2018), pp.~217--282.
+
+\bibitem{bestuzheva2021scip}
+{\sc K.~Bestuzheva, M.~Besan{\c{c}}on, W.-K. Chen, A.~Chmiela, T.~Donkiewicz,
+  J.~van Doornmalen, L.~Eifler, O.~Gaul, G.~Gamrath, A.~Gleixner, et~al.}, {\em
+  The {SCIP} optimization suite 8.0}, arXiv preprint arXiv:2112.08872,  (2021).
+
+\bibitem{bestuzheva2023global}
+{\sc K.~Bestuzheva, A.~Chmiela, B.~M{\"u}ller, F.~Serrano, S.~Vigerske, and
+  F.~Wegscheider}, {\em Global optimization of mixed-integer nonlinear programs
+  with scip 8}, arXiv preprint arXiv:2301.00587,  (2023).
+
+\bibitem{bienstock2019}
+{\sc D.~Bienstock, C.~Chen, and G.~Mu{\~{n}}oz}, {\em Intersection cuts for
+  polynomial optimization}, in Integer Programming and Combinatorial
+  Optimization, A.~Lodi and V.~Nagarajan, eds., Cham, 2019, Springer
+  International Publishing, pp.~72--87.
+
+\bibitem{bienstock2020outer}
+{\sc D.~Bienstock, C.~Chen, and G.~Munoz}, {\em Outer-product-free sets for
+  polynomial optimization and oracle-based cuts}, Mathematical Programming, 183
+  (2020), pp.~105--148.
+
+\bibitem{billionnet1985maximizing}
+{\sc A.~Billionnet and M.~Minoux}, {\em Maximizing a supermodular pseudoboolean
+  function: A polynomial algorithm for supermodular cubic functions}, Discrete
+  Applied Mathematics, 12 (1985), pp.~1--11.
+
+\bibitem{Bjork2002}
+{\sc K.~M. Bj{\"{o}}rk and T.~Westerlund}, {\em {Global optimization of heat
+  exchanger network synthesis problems with and without the isothermal mixing
+  assumption}}, Computers and Chemical Engineering, 26 (2002), pp.~1581--1593.
+
+\bibitem{blanco2023branch}
+{\sc V.~Blanco, R.~G{\'a}zquez, D.~Ponce, and J.~Puerto}, {\em A
+  branch-and-price approach for the continuous multifacility monotone ordered
+  median problem}, European Journal of Operational Research, 306 (2023),
+  pp.~105--126.
+
+\bibitem{Carrizosa16}
+{\sc R.~Blanquero, E.~Carrizosa, and G.~Boglárka}, {\em Maximal covering
+  location problems on networks with regional demand}, Omega, 64 (2016),
+  pp.~77--85.
+
+\bibitem{Blau1971}
+{\sc G.~E. Blau and D.~J. Wilde}, {\em {A Lagrangian algorithm for equality
+  constrained generalized polynomial optimization}}, AIChE Journal, 17 (1971),
+  pp.~235--240.
+
+\bibitem{bliek1u2014solving}
+{\sc C.~Bliek, P.~Bonami, and A.~Lodi}, {\em Solving mixed-integer quadratic
+  programming problems with {IBM-CPLEX}: A progress report}, in Proceedings of
+  the twenty-sixth RAMP Symposium, 2014, pp.~16--17.
+
+\bibitem{bonami2015recent}
+{\sc P.~Bonami and A.~Tramontani}, {\em Recent improvement to {MISOCP} in
+  {CPLEX}}, tech. rep., 2015.
+
+\bibitem{bouhtou2010submodularity}
+{\sc M.~Bouhtou, S.~Gaubert, and G.~Sagnol}, {\em Submodularity and randomized
+  rounding techniques for optimal experimental design}, Electronic Notes in
+  Discrete Mathematics, 36 (2010), pp.~679--686.
+
+\bibitem{crane}
+{\sc D.~Briskorn and M.~Dienstknecht}, {\em Covering polygons with discs: The
+  problem of crane selection and location on construction sites}, Omega, 97
+  (2020), p.~102114.
+
+\bibitem{bucarey2022benders}
+{\sc V.~Bucarey, B.~Fortz, N.~Gonz{\'a}lez-Blanco, M.~Labb{\'e}, and J.~A.
+  Mesa}, {\em Benders decomposition for network design covering problems},
+  Computers \& Operations Research, 137 (2022), p.~105417.
+
+\bibitem{minlplib}
+{\sc M.~R. Bussieck, A.~S. Drud, and A.~Meeraus}, {\em Minlplib—a collection
+  of test models for mixed-integer nonlinear programming}, INFORMS Journal on
+  Computing, 15 (2003), pp.~114--119.
+
+\bibitem{cacchiani2022knapsack}
+{\sc V.~Cacchiani, M.~Iori, A.~Locatelli, and S.~Martello}, {\em Knapsack
+  problems-an overview of recent advances. part ii: Multiple, multidimensional,
+  and quadratic knapsack problems}, Computers \& Operations Research,  (2022),
+  p.~105693.
+
+\bibitem{cafieri2010convex}
+{\sc S.~Cafieri, J.~Lee, and L.~Liberti}, {\em On convex relaxations of
+  quadrilinear terms}, Journal of Global Optimization, 47 (2010), pp.~661--685.
+
+\bibitem{caprara1999}
+{\sc A.~Caprara, D.~Pisinger, and P.~Toth}, {\em Exact solution of the
+  quadratic knapsack problem}, INFORMS Journal on Computing, 11 (1999),
+  pp.~125--137.
+
+\bibitem{cardoen2010operating}
+{\sc B.~Cardoen, E.~Demeulemeester, and J.~Beli{\"e}n}, {\em Operating room
+  planning and scheduling: A literature review}, European journal of
+  operational research, 201 (2010), pp.~921--932.
+
+\bibitem{ceccon2022omlt}
+{\sc F.~Ceccon, J.~Jalving, J.~Haddad, A.~Thebelt, C.~Tsay, C.~D. Laird, and
+  R.~Misener}, {\em Omlt: Optimization \& machine learning toolkit}, The
+  Journal of Machine Learning Research, 23 (2022), pp.~15829--15836.
+
+\bibitem{ceselli2022dantzig}
+{\sc A.~Ceselli, L.~L{\'e}tocart, and E.~Traversi}, {\em {Dantzig--Wolfe}
+  reformulations for binary quadratic problems}, Mathematical Programming
+  Computation,  (2022), pp.~1--36.
+
+\bibitem{chandrasekaran2016}
+{\sc V.~Chandrasekaran and P.~Shah}, {\em {Relative entropy relaxations for
+  signomial optimization}}, SIAM Journal on Optimization, 26 (2016),
+  pp.~1147--1173.
+
+\bibitem{chaporkar2008throughput}
+{\sc P.~Chaporkar, K.~Kar, and S.~Sarkar}, {\em {Throughput guarantees through
+  maximal scheduling in wireless networks}}, 43rd Annual Allerton Conference on
+  Communication, Control and Computing 2005, 3 (2005), pp.~1557--1567.
+
+\bibitem{chares2009cones}
+{\sc R.~Chares}, {\em Cones and interior-point algorithms for structured convex
+  optimization involving powers and exponentials}, PhD thesis,
+  UCL-Universit{\'e} Catholique de Louvain Louvain-la-Neuve, Belgium, 2009.
+
+\bibitem{charnes}
+{\sc A.~Charnes and W.~W. Cooper}, {\em Deterministic equivalents for
+  optimizing and satisficing under chance constraints}, Operations Research, 11
+  (1963), pp.~18--39.
+
+\bibitem{chen2009note}
+{\sc J.-S. Chen and C.-H. Huang}, {\em A note on convexity of two signomial
+  functions}, Journal of Nonlinear and Convex Analysis, 10 (2009),
+  pp.~429--435.
+
+\bibitem{chen2023multilinear}
+{\sc R.~Chen, S.~Dash, and O.~G{\"u}nl{\"u}k}, {\em Multilinear sets with two
+  monomials and cardinality constraints}, Discrete Applied Mathematics, 324
+  (2023), pp.~67--79.
+
+\bibitem{cheng2019high}
+{\sc X.~Cheng, Q.~Wang, Q.~Wang, and D.~Wang}, {\em {A high-reliability relay
+  algorithm based on network coding in multi-hop wireless networks}}, Wireless
+  Networks, 25 (2019), pp.~1557--1566.
+
+\bibitem{chmiela2022implementation}
+{\sc A.~Chmiela, G.~Mu{\~n}oz, and F.~Serrano}, {\em On the implementation and
+  strengthening of intersection cuts for qcqps}, Mathematical Programming,
+  (2022), pp.~1--38.
+
+\bibitem{ChmielaMunozSerrano2023}
+{\sc A.~Chmiela, G.~Mu{\~n}oz, and F.~Serrano}, {\em Monoidal strengthening and
+  unique lifting in miqcps}, in Integer Programming and Combinatorial
+  Optimization: 24th International Conference, IPCO 2023, 2023.
+\newblock accepted for publication.
+
+\bibitem{Church79}
+{\sc R.~Church and M.~Meadows}, {\em Location modeling utilizing maximum
+  service distance criteria}, Geographical Analysis, 11 (1979), pp.~358--373.
+
+\bibitem{Church74}
+{\sc R.~Church and C.~Revelle}, {\em The maximal covering location problem},
+  Papers of the Regional Science Association, 32 (1979), p.~101–118.
+
+\bibitem{church2022review}
+{\sc R.~L. Church and Z.~Drezner}, {\em Review of obnoxious facilities location
+  problems}, Computers \& Operations Research, 138 (2022), p.~105468.
+
+\bibitem{obnoxious}
+{\sc R.~L. Church and R.~S. Garfinkel}, {\em Locating an obnoxious facility on
+  a network}, Transportation Science, 12 (1978), pp.~107--118.
+
+\bibitem{coey2020outer}
+{\sc C.~Coey, M.~Lubin, and J.~P. Vielma}, {\em Outer approximation with conic
+  certificates for mixed-integer convex problems}, Mathematical Programming
+  Computation, 12 (2020), pp.~249--293.
+
+\bibitem{coey2018outer}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Outer approximation
+  with conic certificates for mixed-integer convex problems}}, Mathematical
+  Programming Computation, 12 (2020), pp.~249--293.
+
+\bibitem{cohen2019overcommitment}
+{\sc M.~C. Cohen, P.~W. Keller, V.~Mirrokni, and M.~Zadimoghaddam}, {\em
+  {Overcommitment in cloud services: Bin packing with chance constraints}},
+  Management Science, 65 (2019), pp.~3255--3271.
+
+\bibitem{conforti1984submodular}
+{\sc M.~Conforti and G.~Cornu{\'e}jols}, {\em Submodular set functions,
+  matroids and the greedy algorithm: tight worst-case bounds and some
+  generalizations of the rado-edmonds theorem}, Discrete applied mathematics, 7
+  (1984), pp.~251--274.
+
+\bibitem{conforti2014}
+{\sc M.~Conforti, G.~Cornu{\'e}jols, and G.~Zambelli}, {\em Integer
+  programming}, Springer International Publishing, Cham, 2014.
+
+\bibitem{conforti2014integer}
+{\sc M.~Conforti, G.~Cornu{\'e}jols, G.~Zambelli, et~al.}, {\em Integer
+  programming}, vol.~271, Springer, 2014.
+
+\bibitem{conforti2015}
+{\sc M.~Conforti, G.~Cornuéjols, A.~Daniilidis, C.~Lemaréchal, and
+  J.~Malick}, {\em {Cut-Generating Functions and S-Free Sets}}, Mathematics of
+  Operations Research, 40 (2015), pp.~276--391.
+
+\bibitem{conforti2011}
+{\sc M.~Conforti, G.~Cornuéjols, and G.~Zambelli}, {\em Corner polyhedron and
+  intersection cuts}, Surveys in Operations Research and Management Science, 16
+  (2011), pp.~105--120.
+
+\bibitem{coniglio2019lexicographic}
+{\sc S.~Coniglio, F.~D’andreagiovanni, and F.~Furini}, {\em A lexicographic
+  pricer for the fractional bin packing problem}, Operations Research Letters,
+  47 (2019), pp.~622--628.
+
+\bibitem{coniglio2022submodular}
+{\sc S.~Coniglio, F.~Furini, and I.~Ljubi{\'c}}, {\em Submodular maximization
+  of concave utility functions composed with a set-union operator with
+  applications to maximal covering location problems}, Mathematical
+  Programming,  (2022), pp.~1--48.
+
+\bibitem{cordeau2019benders}
+{\sc J.-F. Cordeau, F.~Furini, and I.~Ljubi{\'c}}, {\em Benders decomposition
+  for very large scale partial set covering and maximal covering location
+  problems}, European Journal of Operational Research, 275 (2019),
+  pp.~882--896.
+
+\bibitem{cordero2011link}
+{\sc J.~A. Cordero}, {\em {Link-state routing optimization for compound
+  autonomous systems in the internet}}, PhD thesis, {\'{E}}cole Polytechnique,
+  2011.
+
+\bibitem{cormen2009introduction}
+{\sc T.~H. Cormen, C.~E. Leiserson, R.~L. Rivest, and C.~Stein}, {\em
+  Introduction to algorithms}, MIT press, 2009.
+
+\bibitem{cornuejols2013safety}
+{\sc G.~Cornu{\'e}jols, F.~Margot, and G.~Nannicini}, {\em On the safety of
+  gomory cut generators}, Mathematical Programming Computation, 5 (2013),
+  pp.~345--395.
+
+\bibitem{cornuejols2015sufficiency}
+{\sc G.~Cornu{\'e}jols, L.~Wolsey, and S.~Y{\i}ld{\i}z}, {\em Sufficiency of
+  cut-generating functions}, Mathematical Programming, 152 (2015),
+  pp.~643--651.
+
+\bibitem{costa2012relaxations}
+{\sc A.~Costa and L.~Liberti}, {\em Relaxations of multilinear convex
+  envelopes: dual is better than primal}, in International Symposium on
+  Experimental Algorithms, Springer, 2012, pp.~87--98.
+
+\bibitem{crama1993concave}
+{\sc Y.~Crama}, {\em Concave extensions for nonlinear 0--1 maximization
+  problems}, Mathematical Programming, 61 (1993), pp.~53--60.
+
+\bibitem{crama2011boolean}
+{\sc Y.~Crama and P.~L. Hammer}, {\em Boolean functions: Theory, algorithms,
+  and applications}, Cambridge University Press, 2011.
+
+\bibitem{d2012algorithmic}
+{\sc C.~D'Ambrosio, J.~Lee, and A.~W{\"a}chter}, {\em An algorithmic framework
+  for {MINLP} with separable non-convexity}, in Mixed Integer Nonlinear
+  Programming, J.~Lee and S.~Leyffer, eds., New York, NY, 2012, Springer New
+  York, pp.~315--347.
+
+\bibitem{deebak2020hybrid}
+{\sc B.~D. Deebak and F.~Al-Turjman}, {\em {A hybrid secure routing and
+  monitoring mechanism in IoT-based wireless sensor networks}}, Ad Hoc
+  Networks, 97 (2020), p.~102022.
+
+\bibitem{del2017polyhedral}
+{\sc A.~Del~Pia and A.~Khajavirad}, {\em A polyhedral study of binary
+  polynomial programs}, Mathematics of Operations Research, 42 (2017),
+  pp.~389--410.
+
+\bibitem{del2018multilinear}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em The multilinear
+  polytope for acyclic hypergraphs}, SIAM Journal on Optimization, 28 (2018),
+  pp.~1049--1076.
+
+\bibitem{del2020impact}
+{\sc A.~Del~Pia, A.~Khajavirad, and N.~V. Sahinidis}, {\em On the impact of
+  running intersection inequalities for globally solving polynomial
+  optimization problems}, Mathematical programming computation, 12 (2020),
+  pp.~165--191.
+
+\bibitem{del2022simple}
+{\sc A.~Del~Pia and M.~Walter}, {\em Simple odd-cycle inequalities for binary
+  polynomial optimization}, in International Conference on Integer Programming
+  and Combinatorial Optimization, Springer, 2022, pp.~181--194.
+
+\bibitem{del2012relaxations}
+{\sc A.~Del~Pia and R.~Weismantel}, {\em Relaxations of mixed integer sets from
+  lattice-free polyhedra}, 4OR, 10 (2012), pp.~221--244.
+
+\bibitem{delorme2016bin}
+{\sc M.~Delorme, M.~Iori, and S.~Martello}, {\em {Bin packing and cutting stock
+  problems: Mathematical models and exact algorithms}}, European Journal of
+  Operational Research, 255 (2016), pp.~1--20.
+
+\bibitem{deng2019chance}
+{\sc Y.~Deng, S.~Shen, and B.~Denton}, {\em Chance-constrained surgery planning
+  under conditions of limited and ambiguous data}, INFORMS Journal on
+  Computing, 31 (2019), pp.~559--575.
+
+\bibitem{deng2020}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Chance-constrained
+  surgery planning under conditions of limited and ambiguous data}, INFORMS
+  Journal on Computing, 31 (2019), pp.~559--575.
+
+\bibitem{denton2010optimal}
+{\sc B.~T. Denton, A.~J. Miller, H.~J. Balasubramanian, and T.~R. Huschka},
+  {\em {Optimal allocation of surgery blocks to operating rooms under
+  uncertainty}}, Operations Research, 58 (2010), pp.~802--816.
+
+\bibitem{desaulniers2006column}
+{\sc G.~Desaulniers, J.~Desrosiers, and M.~M. Solomon}, eds., {\em {Column
+  generation}}, Springer US, Boston, MA, 2005.
+
+\bibitem{dey2008}
+{\sc S.~S. Dey and L.~A. Wolsey}, {\em Lifting integer variables in minimal
+  inequalities corresponding to lattice-free triangles}, in Integer Programming
+  and Combinatorial Optimization, A.~Lodi, A.~Panconesi, and G.~Rinaldi, eds.,
+  Berlin, Heidelberg, 2008, Springer Berlin Heidelberg, pp.~463--475.
+
+\bibitem{dinitz1999single}
+{\sc Y.~Dinitz, N.~Garg, and M.~X. Goemans}, {\em {On the single-source
+  unsplittable flow problem}}, Annual Symposium on Foundations of Computer
+  Science - Proceedings, 19 (1998), pp.~290--299.
+
+\bibitem{dressler2022algebraic}
+{\sc M.~Dressler and R.~Murray}, {\em Algebraic perspectives on signomial
+  optimization}, SIAM Journal on Applied Algebra and Geometry, 6 (2022),
+  pp.~650--684.
+
+\bibitem{drezner2018weber}
+{\sc T.~Drezner, Z.~Drezner, and A.~Sch{\"o}bel}, {\em The weber obnoxious
+  facility location model: A big arc small arc approach}, Computers \&
+  Operations Research, 98 (2018), pp.~240--250.
+
+\bibitem{drezner2019planar}
+{\sc Z.~Drezner, P.~Kalczynski, and S.~Salhi}, {\em The planar multiple
+  obnoxious facilities location problem: A voronoi based heuristic}, Omega, 87
+  (2019), pp.~105--116.
+
+\bibitem{duffin1970linearizing}
+{\sc R.~J. Duffin}, {\em Linearizing geometric programs}, SIAM review, 12
+  (1970), pp.~211--227.
+
+\bibitem{DunningHuchetteLubin2017}
+{\sc I.~Dunning, J.~Huchette, and M.~Lubin}, {\em Jump: A modeling language for
+  mathematical optimization}, SIAM Review, 59 (2017), pp.~295--320.
+
+\bibitem{ecker1983ellipsoid}
+{\sc J.~G. Ecker and M.~Kupferschmid}, {\em An ellipsoid algorithm for
+  nonlinear programming}, Mathematical programming, 27 (1983), pp.~83--106.
+
+\bibitem{edmonds2003submodular}
+{\sc J.~Edmonds}, {\em Submodular functions, matroids, and certain polyhedra},
+  in Combinatorial Optimization—Eureka, You Shrink!, Springer, 2003,
+  pp.~11--26.
+
+\bibitem{pict}
+{\sc en:User:Cburnett}, {\em Hamming distance 3 bit binary}, 2007.
+\newblock The image is licensed under CC BY-SA 3.0.
+
+\bibitem{falk1976successive}
+{\sc J.~E. Falk and K.~R. Hoffman}, {\em A successive underestimation method
+  for concave minimization problems}, Mathematics of Operations Research, 1
+  (1976), pp.~251--259.
+
+\bibitem{farley1990note}
+{\sc A.~A. Farley}, {\em {Note on bounding a class of linear programming
+  problems, including cutting stock problems}}, Operations Research, 38 (1990),
+  pp.~922--923.
+
+\bibitem{fischetti2018}
+{\sc M.~Fischetti, I.~Ljubi{\'{c}}, M.~Monaci, and M.~Sinnl}, {\em {On the use
+  of intersection cuts for bilevel optimization}}, Mathematical Programming,
+  172 (2018), pp.~77--103.
+
+\bibitem{fischetti2020}
+{\sc M.~Fischetti and M.~Monaci}, {\em A branch-and-cut algorithm for
+  mixed-integer bilinear programming}, European Journal of Operational
+  Research, 282 (2020), pp.~506--514.
+
+\bibitem{fortet1960applications}
+{\sc R.~Fortet}, {\em Applications de l’algebre de boole en recherche
+  op{\'e}rationelle}, Revue Fran{\c{c}}aise de Recherche Op{\'e}rationelle, 4
+  (1960), pp.~17--26.
+
+\bibitem{Fragouli2008}
+{\sc C.~Fragouli, J.~Widmer, and J.~Y. {Le Boudec}}, {\em {Efficient
+  broadcasting using network coding}}, IEEE/ACM Transactions on Networking, 16
+  (2008), pp.~450--463.
+
+\bibitem{frangioni2013stabilized}
+{\sc A.~Frangioni and B.~Gendron}, {\em A stabilized structured dantzig--wolfe
+  decomposition method}, Mathematical Programming, 140 (2013), pp.~45--76.
+
+\bibitem{Hamacher20}
+{\sc N.~Fr\"ohlich, A.~Maier, and H.~Hamacher}, {\em Covering edges in
+  networks}, Networks, 75 (2020), pp.~278--290.
+
+\bibitem{fujishige2005submodular}
+{\sc S.~Fujishige}, {\em Submodular functions and optimization}, Elsevier,
+  2005.
+
+\bibitem{fukunaga2016covering}
+{\sc T.~Fukunaga}, {\em Covering problems in edge-and node-weighted graphs},
+  Discrete Optimization, 20 (2016), pp.~40--61.
+
+\bibitem{furini2019theoretical}
+{\sc F.~Furini and E.~Traversi}, {\em Theoretical and computational study of
+  several linearisation techniques for binary quadratic problems}, Annals of
+  Operations Research, 279 (2019), pp.~387--411.
+
+\bibitem{fysarakis2016iot}
+{\sc K.~Fysarakis, I.~Askoxylakis, O.~Soultatos, I.~Papaefstathiou,
+  C.~Manifavas, and V.~Katos}, {\em Which iot protocol? comparing standardized
+  approaches over a common m2m application}, in 2016 IEEE Global Communications
+  Conference (GLOBECOM), 2016, pp.~1--7.
+
+\bibitem{gleixneretal2018oo}
+{\sc G.~Gamrath, D.~Anderson, K.~Bestuzheva, W.-K. Chen, L.~Eifler, M.~Gasse,
+  P.~Gemander, A.~Gleixner, L.~Gottwald, K.~Halbig, G.~Hendel, C.~Hojny,
+  T.~Koch, P.~{Le Bodic}, S.~J. Maher, F.~Matter, M.~Miltenberger,
+  E.~M{\"{u}}hmer, B.~M{\"{u}}ller, M.~E. Pfetsch, F.~Schl{\"{o}}sser,
+  F.~Serrano, Y.~Shinano, C.~Tawfik, S.~Vigerske, F.~Wegscheider, D.~Weninger,
+  and J.~Witzig}, {\em {The SCIP Optimization Suite 7.0}}, Technical Report~05,
+  Optimization Online, 2020.
+
+\bibitem{chapter-marin}
+{\sc S.~García and A.~Marín}, {\em Covering location problems}, in Location
+  Science, G.~Laporte, S.~Nickel, and F.~S. da~Gama, eds., Springer, 2nd
+  edition, 2019, pp.~99--119.
+
+\bibitem{geissler2012using}
+{\sc B.~Gei{\ss}ler, A.~Martin, A.~Morsi, and L.~Schewe}, {\em Using piecewise
+  linear functions for solving {MINLPs}}, in Mixed Integer Nonlinear
+  Programming, J.~Lee and S.~Leyffer, eds., New York, NY, 2012, Springer New
+  York, pp.~287--314.
+
+\bibitem{gelinas1995new}
+{\sc S.~G{\'e}linas, M.~Desrochers, J.~Desrosiers, and M.~M. Solomon}, {\em A
+  new branching strategy for time constrained routing problems with application
+  to backhauling}, Annals of Operations Research, 61 (1995), pp.~91--109.
+
+\bibitem{gendron2019revisiting}
+{\sc B.~Gendron}, {\em {Revisiting Lagrangian relaxation for network design}},
+  Discrete Applied Mathematics, 261 (2019), pp.~203--218.
+
+\bibitem{gendron2014branch}
+{\sc B.~Gendron and M.~Larose}, {\em {Branch-and-price-and-cut for large-scale
+  multicommodity capacitated fixed-charge network design}}, EURO Journal on
+  Computational Optimization, 2 (2014), pp.~55--75.
+
+\bibitem{ghaoui2003}
+{\sc L.~E. Ghaoui, M.~Oks, and F.~Oustry}, {\em Worst-case value-at-risk and
+  robust portfolio optimization: A conic programming approach}, Operations
+  Research, 51 (2003), pp.~543--556.
+
+\bibitem{gilmore1961linear}
+{\sc P.~C. Gilmore and R.~E. Gomory}, {\em {A linear programming approach to
+  the cutting-stock problem}}, Operations Research, 9 (1961), pp.~849--859.
+
+\bibitem{gleixner2020price}
+{\sc A.~Gleixner, S.~J. Maher, B.~M{\"{u}}ller, and J.~P. Pedroso}, {\em
+  {Price-and-verify: a new algorithm for recursive circle packing using
+  Dantzig–Wolfe decomposition}}, Annals of Operations Research, 284 (2020),
+  pp.~527--555.
+
+\bibitem{glover1973}
+{\sc F.~Glover}, {\em Convexity cuts and cut search}, Operations Research, 21
+  (1973), pp.~123--134.
+
+\bibitem{Goemans}
+{\sc M.~X. Goemans, S.~Gupta, and P.~Jaillet}, {\em Discrete newton's algorithm
+  for parametric submodular function minimization}, in Integer Programming and
+  Combinatorial Optimization, F.~Eisenbrand and J.~Koenemann, eds., Cham, 2017,
+  Springer International Publishing, pp.~212--227.
+
+\bibitem{gomez2006adapting}
+{\sc C.~Gomez, P.~Salvatella, O.~Alonso, and J.~Paradells}, {\em Adapting aodv
+  for ieee 802.15.4 mesh sensor networks: theoretical discussion and
+  performance evaluation in a real environment}, in 2006 International
+  Symposium on a World of Wireless, Mobile and Multimedia Networks(WoWMoM'06),
+  2006, pp.~9 pp.--170.
+
+\bibitem{gomory1969some}
+{\sc R.~E. Gomory}, {\em Some polyhedra related to combinatorial problems},
+  Linear algebra and its applications, 2 (1969), pp.~451--558.
+
+\bibitem{gomory1963algorithm}
+{\sc R.~E. Gomory}, {\em Outline of an algorithm for integer solutions to
+  linear programs and an algorithm for the mixed integer problem}, in 50 Years
+  of Integer Programming 1958-2008: From the Early Years to the
+  State-of-the-Art, M.~J{\"u}nger, T.~M. Liebling, D.~Naddef, G.~L. Nemhauser,
+  W.~R. Pulleyblank, G.~Reinelt, G.~Rinaldi, and L.~A. Wolsey, eds., Springer
+  Berlin Heidelberg, Berlin, Heidelberg, 2010, pp.~77--103.
+
+\bibitem{gope2015bsn}
+{\sc P.~Gope and T.~Hwang}, {\em {BSN-Care: A secure IoT-based modern
+  healthcare system using body sensor network}}, IEEE Sensors Journal, 16
+  (2016), pp.~1368--1376.
+
+\bibitem{goyal2010ptas}
+{\sc V.~Goyal and R.~Ravi}, {\em {A PTAS for the chance-constrained knapsack
+  problem with random item sizes}}, Operations Research Letters, 38 (2010),
+  pp.~161--164.
+
+\bibitem{gu1999lifted}
+{\sc Z.~Gu, G.~L. Nemhauser, and M.~W. Savelsbergh}, {\em Lifted flow cover
+  inequalities for mixed 0-1 integer programs}, Mathematical Programming, 85
+  (1999), pp.~439--467.
+
+\bibitem{gupta2000capacity}
+{\sc P.~Gupta and P.~R. Kumar}, {\em {The capacity of wireless networks}}, IEEE
+  Transactions on Information Theory, 46 (2000), pp.~388--404.
+
+\bibitem{gupta2007sufficient}
+{\sc R.~Gupta, J.~Musacchio, and J.~Walrand}, {\em {Sufficient rate constraints
+  for QoS flows in ad-hoc networks}}, Ad Hoc Networks, 5 (2007), pp.~429--443.
+
+\bibitem{Gurevich84}
+{\sc Y.~Gurevich, L.~Stockmeyer, and U.~Vishkin}, {\em Solving {NP}-hard
+  problems on graphs that are almost trees and an application to facility
+  location problems}, Journal of the ACM (JACM), 31 (1984), pp.~459--473.
+
+\bibitem{Gusev20}
+{\sc V.~Gusev}, {\em The vertex cover game: {A}pplication to transport
+  networks}, Omega, 97 (2020).
+\newblock 102102.
+
+\bibitem{haddad2019virtual}
+{\sc S.~Haddad-Vanier, C.~Gicquel, L.~Boukhatem, K.~Lazri, and P.~Chaignon},
+  {\em {Virtual network functions placement for defense against distributed
+  denial of service attacks}}, in ICORES 2019 - Proceedings of the 8th
+  International Conference on Operations Research and Enterprise Systems, 2019,
+  pp.~142--150.
+
+\bibitem{hagberg2008exploring}
+{\sc A.~A. Hagberg, D.~A. Schult, and P.~J. Swart}, {\em {Exploring network
+  structure, dynamics, and function using NetworkX}}, tech. rep., Los Alamos
+  National Lab.(LANL), Los Alamos, NM (United States), 2008.
+
+\bibitem{SciPyProceedings_11}
+{\sc A.~A. Hagberg, D.~A. Schult, and P.~J. Swart}, {\em Exploring network
+  structure, dynamics, and function using networkx}, in Proceedings of the 7th
+  Python in Science Conference, G.~Varoquaux, T.~Vaught, and J.~Millman, eds.,
+  Pasadena, CA USA, 2008, pp.~11 -- 15.
+
+\bibitem{han2022fractional}
+{\sc S.~Han, A.~G{\'o}mez, and O.~A. Prokopyev}, {\em Fractional 0--1
+  programming and submodularity}, Journal of Global Optimization,  (2022),
+  pp.~1--17.
+
+\bibitem{harjunkoski2009integration}
+{\sc I.~Harjunkoski, R.~Nystr{\"o}m, and A.~Horch}, {\em Integration of
+  scheduling and control—theory or practice?}, Computers \& Chemical
+  Engineering, 33 (2009), pp.~1909--1918.
+
+\bibitem{Harjunkoski1998}
+{\sc I.~Harjunkoski, T.~Westerlund, R.~P{\"{o}}rn, and H.~Skrifvars}, {\em
+  {Different transformations for solving non-convex trim-loss problems by
+  MINLP}}, European Journal of Operational Research, 105 (1998), pp.~594--603.
+
+\bibitem{Hartmann21}
+{\sc T.~A. Hartmann, S.~Lendl, and G.~J. Woeginger}, {\em Continuous facility
+  location on graphs}, Mathematical Programming, 192 (2022), pp.~207--227.
+
+\bibitem{he2021new}
+{\sc T.~He and M.~Tawarmalani}, {\em A new framework to relax composite
+  functions in nonlinear programs}, Mathematical Programming, 190 (2021),
+  pp.~427--466.
+
+\bibitem{he2022tractable}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Tractable
+  relaxations of composite functions}, Mathematics of Operations Research, 47
+  (2022), pp.~1110--1140.
+
+\bibitem{hiriart2004fundamentals}
+{\sc J.-B. Hiriart-Urruty and C.~Lemar{\'e}chal}, {\em Fundamentals of convex
+  analysis}, Springer Berlin Heidelberg, Berlin, Heidelberg, 2001.
+
+\bibitem{horsttuy}
+{\sc R.~Horst and H.~Tuy}, {\em Global Optimization: Deterministic Approaches},
+  Springer, Berlin, 1990.
+
+\bibitem{hudec1994confined}
+{\sc O.~Hudec}, {\em Confined location of facilities on a graph}, Optimization,
+  28 (1994), pp.~333--338.
+
+\bibitem{cplexsos}
+{\sc {IBM ILOG}}, {\em {Automatic reformulation of special ordered sets}}.
+\newblock
+  \url{https://www.ibm.com/docs/en/icos/20.1.0?topic=sos-automatic-reformulation-special-ordered-sets},
+  11 2021.
+\newblock [Online; accessed 29-March-2022].
+
+\bibitem{Jabr2007}
+{\sc R.~A. Jabr}, {\em {Inductor design using signomial programming}}, COMPEL -
+  The International Journal for Computation and Mathematics in Electrical and
+  Electronic Engineering, 26 (2007), pp.~461--475.
+
+\bibitem{jacquet2001optimized}
+{\sc P.~Jacquet, P.~M{\"{u}}hlethaler, T.~Clausen, A.~Laouiti, A.~Qayyum, and
+  L.~Viennot}, {\em Optimized link state routing protocol for ad hoc networks},
+  in Multi Topic Conference, 2001. IEEE INMIC 2001. Technology for the 21st
+  Century. Proceedings. IEEE International, 2001, pp.~62--68.
+
+\bibitem{military}
+{\sc P.~R. Jenkins, B.~J. Lunday, and M.~J. Robbins}, {\em Robust,
+  multi-objective optimization for the military medical evacuation
+  location-allocation problem}, Omega, 97 (2020), p.~102088.
+
+\bibitem{jepsen2008subset}
+{\sc M.~Jepsen, B.~Petersen, S.~Spoorendonk, and D.~Pisinger}, {\em Subset-row
+  inequalities applied to the vehicle-routing problem with time windows},
+  Operations Research, 56 (2008), pp.~497--511.
+
+\bibitem{joncour2010column}
+{\sc C.~Joncour, S.~Michel, R.~Sadykov, D.~Sverdlov, and F.~Vanderbeck}, {\em
+  {Column generation based primal heuristics}}, Electronic Notes in Discrete
+  Mathematics, 36 (2010), pp.~695--702.
+
+\bibitem{kalczynski2021obnoxious}
+{\sc P.~Kalczynski and Z.~Drezner}, {\em The obnoxious facilities planar
+  p-median problem}, OR Spectrum, 43 (2021), pp.~577--593.
+
+\bibitem{kalczynski2022obnoxious}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em The obnoxious
+  facilities planar p-median problem with variable sizes}, Omega, 111 (2022),
+  p.~102639.
+
+\bibitem{khamisov1999optimization}
+{\sc O.~Khamisov}, {\em On optimization properties of functions, with a concave
+  minorant}, Journal of Global Optimization, 14 (1999), pp.~79--101.
+
+\bibitem{kilincc2021joint}
+{\sc F.~K{\i}l{\i}n{\c{c}}-Karzan, S.~K{\"u}{\c{c}}{\"u}kyavuz, and D.~Lee},
+  {\em Joint chance-constrained programs and the intersection of mixing sets
+  through a submodularity lens}, Mathematical Programming,  (2021), pp.~1--44.
+
+\bibitem{kleinberg1996single}
+{\sc J.~M. Kleinberg}, {\em {Single-source unsplittable flow}}, in Annual
+  Symposium on Foundations of Computer Science - Proceedings, IEEE, 1996,
+  pp.~68--77.
+
+\bibitem{kleinberg1998decision}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Decision algorithms
+  for unsplittable flow and the half-disjoint paths problem}}, in Conference
+  Proceedings of the Annual ACM Symposium on Theory of Computing, 1998,
+  pp.~530--539.
+
+\bibitem{kocis1989computational}
+{\sc G.~R. Kocis and I.~E. Grossmann}, {\em Computational experience with
+  dicopt solving minlp problems in process systems engineering}, Computers \&
+  Chemical Engineering, 13 (1989), pp.~307--315.
+
+\bibitem{kolda2009tensor}
+{\sc T.~G. Kolda and B.~W. Bader}, {\em Tensor decompositions and
+  applications}, SIAM review, 51 (2009), pp.~455--500.
+
+\bibitem{klnc-karzan2015}
+{\sc F.~Kılın{\c{c}}-Karzan and S.~Yıldız}, {\em {Two-term disjunctions on
+  the second-order cone}}, Mathematical Programming, 154 (2015), pp.~463--491.
+
+\bibitem{kilinc-karzan2016}
+{\sc F.~Kılınç-Karzan}, {\em On minimal valid inequalities for mixed integer
+  conic programs}, Mathematics of Operations Research, 41 (2016), pp.~477--510.
+
+\bibitem{lasserre2002semidefinite}
+{\sc J.~B. Lasserre}, {\em Semidefinite programming vs. lp relaxations for
+  polynomial programming}, Mathematics of operations research, 27 (2002),
+  pp.~347--360.
+
+\bibitem{lasserre2015introduction}
+{\sc J.~B. Lasserre}, {\em An introduction to polynomial and semi-algebraic
+  optimization}, vol.~52, Cambridge University Press, 2015.
+
+\bibitem{laube2016optimal}
+{\sc A.~Laube, S.~Martin, D.~Quadri, and K.~Alagha}, {\em Optimal flow
+  aggregation for global energy savings in multi-hop wireless networks}, in
+  Ad-hoc, Mobile, and Wireless Networks, N.~Mitton, V.~Loscri, and
+  A.~Mouradian, eds., Cham, 2016, Springer International Publishing,
+  pp.~124--137.
+
+\bibitem{leitner2020exact}
+{\sc M.~Leitner, I.~Ljubi{\'{c}}, M.~Riedler, and M.~Ruthmair}, {\em {Exact
+  approaches for network design problems with relays}}, INFORMS Journal on
+  Computing, 31 (2019), pp.~171--192.
+
+\bibitem{li2003linear}
+{\sc S.~Y.~R. Li, R.~W. Yeung, and N.~Cai}, {\em {Linear network coding}}, IEEE
+  Transactions on Information Theory, 49 (2003), pp.~371--381.
+
+\bibitem{leoinbook}
+{\sc L.~Liberti}, {\em Writing global optimization software}, in Liberti and
+  Maculan \cite{leonelson}, pp.~211--262.
+
+\bibitem{liberti2008spherical}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Spherical cuts for
+  integer programming problems}, International Transactions in Operational
+  Research, 15 (2008), pp.~283--294.
+
+\bibitem{liberti2019undecidability}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Undecidability and
+  hardness in mixed-integer nonlinear programming}, RAIRO-Operations Research,
+  53 (2019), pp.~81--109.
+
+\bibitem{leonelson}
+{\sc L.~Liberti and N.~Maculan}, eds., {\em Global Optimization: from Theory to
+  Implementation}, Springer, Berlin, 2006.
+
+\bibitem{liberti2003convex}
+{\sc L.~Liberti and C.~C. Pantelides}, {\em Convex envelopes of monomials of
+  odd degree}, Journal of Global Optimization, 25 (2003), pp.~157--168.
+
+\bibitem{liers2010non}
+{\sc F.~Liers, E.~Marinari, U.~Pagacz, F.~Ricci-Tersenghi, and V.~Schmitz},
+  {\em A non-disordered glassy model with a tunable interaction range}, Journal
+  of Statistical Mechanics: Theory and Experiment, 2010 (2010), p.~L05003.
+
+\bibitem{lin2012range}
+{\sc M.-H. Lin and J.-F. Tsai}, {\em Range reduction techniques for improving
+  computational efficiency in global optimization of signomial geometric
+  programming problems}, European Journal of Operational Research, 216 (2012),
+  pp.~17--25.
+
+\bibitem{Ljubic2006}
+{\sc I.~Ljubi{\'{c}}, R.~Weiskircher, U.~Pferschy, G.~W. Klau, P.~Mutzel, and
+  M.~Fischetti}, {\em {An Algorithmic Framework for the Exact Solution of the
+  Prize-Collecting Steiner Tree Problem}}, Mathematical Programming, 105
+  (2006), pp.~427--449.
+
+\bibitem{locatelli2016polyhedral}
+{\sc M.~Locatelli}, {\em Polyhedral subdivisions and functional forms for the
+  convex envelopes of bilinear, fractional and other bivariate functions over
+  general polytopes}, Journal of Global Optimization, 66 (2016), pp.~629--668.
+
+\bibitem{locatelli2018convex}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Convex envelopes of
+  bivariate functions through the solution of KKT systems}}, Journal of Global
+  Optimization, 72 (2018), pp.~277--303.
+
+\bibitem{locatelli2014convex}
+{\sc M.~Locatelli and F.~Schoen}, {\em On convex envelopes for bivariate
+  functions over polytopes}, Mathematical Programming, 144 (2014), pp.~65--91.
+
+\bibitem{lovasz1983submodular}
+{\sc L.~Lov{\'a}sz}, {\em Submodular functions and convexity}, in Mathematical
+  programming the state of the art, Springer, 1983, pp.~235--257.
+
+\bibitem{lu2017collaborative}
+{\sc W.~Lu, Y.~Gong, X.~Liu, J.~Wu, and H.~Peng}, {\em {Collaborative energy
+  and information transfer in green wireless sensor networks for smart
+  cities}}, IEEE Transactions on Industrial Informatics, 14 (2018),
+  pp.~1585--1593.
+
+\bibitem{lubbecke2012primal}
+{\sc M.~L{\"{u}}bbecke and C.~Puchert}, {\em {Primal heuristics for
+  branch-and-price algorithms}}, in Operations Research Proceedings 2011,
+  Springer, 2012, pp.~65--70.
+
+\bibitem{lubbecke2005selected}
+{\sc M.~E. L{\"{u}}bbecke and J.~Desrosiers}, {\em {Selected topics in column
+  generation}}, Operations Research, 53 (2005), pp.~1007--1023.
+
+\bibitem{luedtke2008sample}
+{\sc J.~Luedtke and S.~Ahmed}, {\em {A sample approximation approach for
+  optimization with probabilistic constraints}}, SIAM Journal on Optimization,
+  19 (2008), pp.~674--699.
+
+\bibitem{luedtke2012some}
+{\sc J.~Luedtke, M.~Namazifar, and J.~Linderoth}, {\em Some results on the
+  strength of relaxations of multilinear functions}, Mathematical programming,
+  136 (2012), pp.~325--351.
+
+\bibitem{lundell2013reformulation}
+{\sc A.~Lundell, A.~Skj{\"a}l, and T.~Westerlund}, {\em A reformulation
+  framework for global optimization}, Journal of Global Optimization, 57
+  (2013), pp.~115--141.
+
+\bibitem{lundell2018}
+{\sc A.~Lundell and T.~Westerlund}, {\em Solving global optimization problems
+  using reformulations and signomial transformations}, Computers \& Chemical
+  Engineering, 116 (2018), pp.~122--134.
+
+\bibitem{maranas1995finding}
+{\sc C.~D. Maranas and C.~A. Floudas}, {\em Finding all solutions of
+  nonlinearly constrained systems of equations}, Journal of Global
+  Optimization, 7 (1995), pp.~143--182.
+
+\bibitem{maranas1997global}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Global optimization
+  in generalized geometric programming}, Computers \& Chemical Engineering, 21
+  (1997), pp.~351--369.
+
+\bibitem{martens2007convex}
+{\sc M.~Martens, F.~Salazar, and M.~Skutella}, {\em Convex combinations of
+  single source unsplittable flows}, in Algorithms -- ESA 2007, L.~Arge,
+  M.~Hoffmann, and E.~Welzl, eds., Berlin, Heidelberg, 2007, Springer Berlin
+  Heidelberg, pp.~395--406.
+
+\bibitem{mccormick1976computability}
+{\sc G.~P. McCormick}, {\em {Computability of global solutions to factorable
+  nonconvex programs: Part I—Convex underestimating problems}}, Mathematical
+  programming, 10 (1976), pp.~147--175.
+
+\bibitem{meyer2004trilinear}
+{\sc C.~A. Meyer and C.~A. Floudas}, {\em Trilinear monomials with mixed sign
+  domains: Facets of the convex and concave envelopes}, Journal of Global
+  Optimization, 29 (2004), pp.~125--155.
+
+\bibitem{meyer20042}
+{\sc C.~A. Meyer and C.~A. Floudas}, {\em Trilinear monomials with positive or
+  negative domains: Facets of the convex and concave envelopes}, in Frontiers
+  in Global Optimization, C.~A. Floudas and P.~Pardalos, eds., Boston, MA,
+  2004, Springer US, pp.~327--352.
+
+\bibitem{misener2012global}
+{\sc R.~Misener and C.~A. Floudas}, {\em Global optimization of mixed-integer
+  models with quadratic and signomial functions: a review}, Applied and
+  Computational Mathematics,  (2012).
+
+\bibitem{Misener2014}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {ANTIGONE:
+  Algorithms for coNTinuous / Integer Global Optimization of Nonlinear
+  Equations}}, Journal of Global Optimization, 59 (2014), pp.~503--526.
+
+\bibitem{Misener2014miso}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em A framework for
+  globally optimizing mixed-integer signomial programs}, Journal of
+  Optimization Theory and Applications, 161 (2014), pp.~905--932.
+
+\bibitem{modaresi2015}
+{\sc S.~Modaresi, M.~R. Kilin{\c{c}}, and J.~P. Vielma}, {\em {Split cuts and
+  extended formulations for Mixed Integer Conic Quadratic Programming}},
+  Operations Research Letters, 43 (2015), pp.~10--15.
+
+\bibitem{modaresi2016}
+{\sc S.~Modaresi, M.~R. Kılın{\c{c}}, and J.~P. Vielma}, {\em {Intersection
+  cuts for nonlinear integer programming: convexification techniques for
+  structured sets}}, Mathematical Programming, 155 (2016), pp.~575--611.
+
+\bibitem{mozaffari2019tutorial}
+{\sc M.~Mozaffari, W.~Saad, M.~Bennis, Y.~H. Nam, and M.~Debbah}, {\em {A
+  tutorial on UAVs for wireless networks: Applications, challenges, and open
+  Problems}}, IEEE Communications Surveys and Tutorials, 21 (2019),
+  pp.~2334--2360.
+
+\bibitem{munoz2022towards}
+{\sc G.~Mu{\~n}oz, J.~Paat, and F.~Serrano}, {\em Towards a characterization of
+  maximal quadratic-free sets}, arXiv preprint arXiv:2211.05185,  (2022).
+
+\bibitem{munoz2020maximal}
+{\sc G.~Mu{\~n}oz and F.~Serrano}, {\em Maximal quadratic-free sets},
+  Mathematical Programming, 192 (2022), pp.~229--270.
+
+\bibitem{murota1998discrete}
+{\sc K.~Murota}, {\em Discrete convex analysis}, Mathematical Programming, 83
+  (1998), pp.~313--371.
+
+\bibitem{murray2021signomial}
+{\sc R.~Murray, V.~Chandrasekaran, and A.~Wierman}, {\em Signomial and
+  polynomial optimization via relative entropy and partial dualization},
+  Mathematical Programming Computation, 13 (2021), pp.~257--295.
+
+\bibitem{Nemhauser1988}
+{\sc G.~Nemhauser and L.~Wolsey}, {\em Matroid and Submodular Function
+  Optimization}, John Wiley \& Sons, Ltd, 1988, ch.~III.3, pp.~659--719.
+
+\bibitem{nemhauser1978analysis}
+{\sc G.~L. Nemhauser, L.~A. Wolsey, and M.~L. Fisher}, {\em An analysis of
+  approximations for maximizing submodular set functions—i}, Mathematical
+  programming, 14 (1978), pp.~265--294.
+
+\bibitem{nguyen2008wireless}
+{\sc D.~Nguyen, T.~Tran, T.~Nguyen, and B.~Bose}, {\em {Wireless broadcast
+  using network coding}}, IEEE Transactions on Vehicular Technology, 58 (2009),
+  pp.~914--925.
+
+\bibitem{nguyen2018deriving}
+{\sc T.~T. Nguyen, J.-P.~P. Richard, and M.~Tawarmalani}, {\em Deriving convex
+  hulls through lifting and projection}, Mathematical Programming, 169 (2018),
+  pp.~377--415.
+
+\bibitem{ni2006routing}
+{\sc B.~Ni, N.~Santhapuri, Z.~Zhong, and S.~Nelakuditi}, {\em {Routing with
+  opportunistically coded exchanges in wireless mesh networks}}, in 2006 2nd
+  IEEE Workshop on Wireless Mesh Networks, WiMESH 2006, IEEE, 2006,
+  pp.~157--159.
+
+\bibitem{ni2021branch}
+{\sc W.~Ni, J.~Shu, M.~Song, D.~Xu, and K.~Zhang}, {\em A branch-and-price
+  algorithm for facility location with general facility cost functions},
+  INFORMS Journal on Computing, 33 (2021), pp.~86--104.
+
+\bibitem{olivir2021}
+{\sc P.~Olivier, A.~Lodi, and G.~Pesant}, {\em The quadratic multiknapsack
+  problem with conflicts and balance constraints}, INFORMS Journal on
+  Computing, 33 (2021), pp.~949--962.
+
+\bibitem{Opgenoord2017}
+{\sc M.~M.~J. Opgenoord, B.~S. Cohen, and W.~W. Hoburg}, {\em Comparison of
+  algorithms for including equality constraints in signomial programming}, ACDL
+  Technical Report TR-2017-1,  (2017), pp.~1--23.
+
+\bibitem{oubbati2019routing}
+{\sc O.~S. Oubbati, M.~Atiquzzaman, P.~Lorenz, M.~H. Tareque, and M.~S.
+  Hossain}, {\em {Routing in flying ad hoc networks: Survey, constraints, and
+  future challenge perspectives}}, IEEE Access, 7 (2019), pp.~81057--81105.
+
+\bibitem{Ulriks}
+{\sc U.~Pagacz}, {\em {POLIP: Library for polynomially constrained
+  mixed-integer programming}}, Jun 2023.
+\newblock Online accessed.
+
+\bibitem{paul2017multiobjective}
+{\sc N.~R. Paul, B.~J. Lunday, and S.~G. Nurre}, {\em A multiobjective, maximal
+  conditional covering location problem applied to the relocation of
+  hierarchical emergency response facilities}, Omega, 66 (2017), pp.~147--158.
+
+\bibitem{pecin2017improved}
+{\sc D.~Pecin, A.~Pessoa, M.~Poggi, and E.~Uchoa}, {\em Improved
+  branch-cut-and-price for capacitated vehicle routing}, Mathematical
+  Programming Computation, 9 (2017), pp.~61--100.
+
+\bibitem{pelegrin:hal-02902566}
+{\sc M.~Pelegr{\'i}n and C.~D'Ambrosio}, {\em {Aircraft deconfliction via
+  mathematical programming: Review and insights}}, tech. rep., {\'{E}}cole
+  Polytechnique, Mar. 2021.
+
+\bibitem{PELEGRIN2023102835}
+{\sc M.~Pelegrín and L.~Xu}, {\em Continuous covering on networks: Improved
+  mixed integer programming formulations}, Omega,  (2023), p.~102835.
+
+\bibitem{pessoa2021solving}
+{\sc A.~Pessoa, R.~Sadykov, and E.~Uchoa}, {\em Solving bin packing problems
+  using vrpsolver models}, in Operations Research Forum, vol.~2, Springer,
+  2021, p.~20.
+
+\bibitem{pessoa2018automation}
+{\sc A.~Pessoa, R.~Sadykov, E.~Uchoa, and F.~Vanderbeck}, {\em {Automation and
+  combination of linear-programming based stabilization techniques in column
+  generation}}, INFORMS Journal on Computing, 30 (2018), pp.~339--360.
+
+\bibitem{pessoa2020generic}
+{\sc A.~Pessoa, R.~Sadykov, E.~Uchoa, and F.~Vanderbeck}, {\em A generic exact
+  solver for vehicle routing and related problems}, Mathematical Programming,
+  183 (2020), pp.~483--523.
+
+\bibitem{pistikopoulos2021process}
+{\sc E.~N. Pistikopoulos, A.~Barbosa-Povoa, J.~H. Lee, R.~Misener, A.~Mitsos,
+  G.~V. Reklaitis, V.~Venkatasubramanian, F.~You, and R.~Gani}, {\em Process
+  systems engineering--the generation next?}, Computers \& Chemical
+  Engineering, 147 (2021), p.~107252.
+
+\bibitem{chapter-plastria}
+{\sc F.~Plastria}, {\em Continuous covering location problems}, in Facility
+  location: applications and theory, Z.Drezner and H.Hamacher, eds., Springer,
+  2002, pp.~37--79.
+
+\bibitem{press2007chapter}
+{\sc W.~H. Press, S.~A. Teukolsky, W.~T. Vetterling, and B.~Flannery}, {\em
+  Chapter 9: Root finding and nonlinear sets of equations}, Book: Numerical
+  Recipes: The Art of Scientific Computing, New York, Cambridge University
+  Press,, 10 (2007).
+
+\bibitem{Puchinger2010}
+{\sc J.~Puchinger, G.~R. Raidl, and U.~Pferschy}, {\em The multidimensional
+  knapsack problem: Structure and algorithms}, INFORMS Journal on Computing, 22
+  (2010), pp.~250--265.
+
+\bibitem{puerto2018extensive}
+{\sc J.~Puerto, F.~Ricca, and A.~Scozzari}, {\em Extensive facility location
+  problems on networks: an updated review}, Top, 26 (2018), pp.~187--226.
+
+\bibitem{rahimi2018novel}
+{\sc H.~Rahimi, A.~Zibaeenejad, and A.~A. Safavi}, {\em {A novel IoT
+  architecture based on 5G-IoT and next generation technologies}}, in 2018 IEEE
+  9th Annual Information Technology, Electronics and Mobile Communication
+  Conference, IEMCON 2018, IEEE, 2019, pp.~81--88.
+
+\bibitem{rendl2010solving}
+{\sc F.~Rendl, G.~Rinaldi, and A.~Wiegele}, {\em Solving max-cut to optimality
+  by intersecting semidefinite and polyhedral relaxations}, Mathematical
+  Programming, 121 (2010), pp.~307--335.
+
+\bibitem{rhys1970selection}
+{\sc J.~M. Rhys}, {\em A selection problem of shared fixed costs and network
+  flows}, Management Science, 17 (1970), pp.~200--207.
+
+\bibitem{richard2010group}
+{\sc J.-P.~P. Richard and S.~S. Dey}, {\em The group-theoretic approach in
+  mixed integer programming}, in 50 Years of Integer Programming 1958-2008,
+  Springer, 2010, pp.~727--801.
+
+\bibitem{rikun1997convex}
+{\sc A.~D. Rikun}, {\em A convex envelope formula for multilinear functions},
+  Journal of Global Optimization, 10 (1997), pp.~425--437.
+
+\bibitem{rinaldi1998rudy}
+{\sc G.~Rinaldi}, {\em Rudy}, http://www-user. tu-chemnitz. de/helmberg/rudy.
+  tar. gz,  (1998).
+
+\bibitem{ryan1981integer}
+{\sc D.~M. Ryan and B.~A. Foster}, {\em An integer programming approach to
+  scheduling}, Computer scheduling of public transport urban passenger vehicle
+  and crew scheduling,  (1981), pp.~269--280.
+
+\bibitem{sadigh2010mixed}
+{\sc A.~N. Sadigh, M.~Mozafari, and A.~H. Kashan}, {\em A mixed integer linear
+  program and tabu search approach for the complementary edge covering
+  problem}, Advances in Engineering Software, 41 (2010), pp.~762--768.
+
+\bibitem{SAGNOL2013258}
+{\sc G.~Sagnol}, {\em Approximation of a maximum-submodular-coverage problem
+  involving spectral functions, with application to experimental designs},
+  Discrete Applied Mathematics, 161 (2013), pp.~258--276.
+
+\bibitem{sagnol2015computing}
+{\sc G.~Sagnol and R.~Harman}, {\em Computing exact $ d $-optimal designs by
+  mixed integer second-order cone programming}, The Annals of Statistics, 43
+  (2015), pp.~2198--2224.
+
+\bibitem{saxena2011convex}
+{\sc A.~Saxena, P.~Bonami, and J.~Lee}, {\em Convex relaxations of non-convex
+  mixed integer quadratically constrained programs: projected formulations},
+  Mathematical programming, 130 (2011), pp.~359--413.
+
+\bibitem{Schobel2019}
+{\sc A.~Sch{\"o}bel}, {\em Locating Dimensional Facilities in a Continuous
+  Space}, Springer International Publishing, Cham, 2019, pp.~143--184.
+
+\bibitem{schrijver2003combinatorial}
+{\sc A.~Schrijver et~al.}, {\em Combinatorial optimization: polyhedra and
+  efficiency}, vol.~24, Springer, 2003.
+
+\bibitem{serrano2019}
+{\sc F.~Serrano}, {\em Intersection cuts for factorable {MINLP}}, in Integer
+  Programming and Combinatorial Optimization, A.~Lodi and V.~Nagarajan, eds.,
+  Cham, 2019, Springer International Publishing, pp.~385--398.
+
+\bibitem{serranothesis}
+{\sc F.~Serrano~Musalem}, {\em On cutting planes for mixed-integer nonlinear
+  programming}, doctoral thesis, Technische Universität Berlin, Berlin, 2021.
+
+\bibitem{shaikh2018routing}
+{\sc F.~S. Shaikh and R.~Wism{\"{u}}ller}, {\em {Routing in multi-hop cellular
+  device-to-device (D2D) networks: A survey}}, IEEE Communications Surveys \&
+  Tutorials, 20 (2018), pp.~2622--2657.
+
+\bibitem{shamaiah2010greedy}
+{\sc M.~Shamaiah, S.~Banerjee, and H.~Vikalo}, {\em Greedy sensor selection:
+  Leveraging submodularity}, in 49th IEEE conference on decision and control
+  (CDC), IEEE, 2010, pp.~2572--2577.
+
+\bibitem{shen2005linearization}
+{\sc P.~Shen}, {\em Linearization method of global optimization for generalized
+  geometric programming}, Applied Mathematics and Computation, 162 (2005),
+  pp.~353--370.
+
+\bibitem{sherali1997convex}
+{\sc H.~D. Sherali}, {\em Convex envelopes of multilinear functions over a unit
+  hypercube and over special discrete sets}, Acta mathematica vietnamica, 22
+  (1997), pp.~245--270.
+
+\bibitem{shi2022sequence}
+{\sc X.~Shi, O.~A. Prokopyev, and B.~Zeng}, {\em Sequence independent lifting
+  for a set of submodular maximization problems}, Mathematical Programming,
+  (2022), pp.~1--46.
+
+\bibitem{worm}
+{\sc S.~Shirinivas, S.~Vetrivel, and N.~Elango}, {\em Applications of graph
+  theory in computer science an overview}, International Journal of Engineering
+  Science and Technology, 2 (2010), pp.~4610--4621.
+
+\bibitem{shylo2013}
+{\sc O.~V. Shylo, O.~A. Prokopyev, and A.~J. Schaefer}, {\em Stochastic
+  operating room scheduling for high-volume specialties under block booking},
+  INFORMS Journal on Computing, 25 (2013), pp.~682--692.
+
+\bibitem{song2014chance}
+{\sc Y.~Song, J.~R. Luedtke, and S.~K{\"{u}}{\c{c}}{\"{u}}kyavuz}, {\em
+  {Chance-constrained binary packing problems}}, INFORMS Journal on Computing,
+  26 (2014), pp.~735--747.
+
+\bibitem{speakman2017quantifying}
+{\sc E.~Speakman and J.~Lee}, {\em Quantifying double mccormick}, Mathematics
+  of Operations Research, 42 (2017), pp.~1230--1253.
+
+\bibitem{tawarmalani2013explicit}
+{\sc M.~Tawarmalani, J.-P.~P. Richard, and C.~Xiong}, {\em Explicit convex and
+  concave envelopes through polyhedral subdivisions}, Mathematical Programming,
+  138 (2013), pp.~531--577.
+
+\bibitem{sahinidis:baron:21.1.13}
+{\sc M.~Tawarmalani and N.~V. Sahinidis}, {\em {A polyhedral branch-and-cut
+  approach to global optimization}}, Mathematical Programming, 103 (2005),
+  pp.~225--249.
+
+\bibitem{tawarmalani2005polyhedral}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em A polyhedral
+  branch-and-cut approach to global optimization}, Mathematical programming,
+  103 (2005), pp.~225--249.
+
+\bibitem{tiliute2007battery}
+{\sc D.~E. Tiliute}, {\em Battery management in wireless sensor networks},
+  Elektronika ir elektrotechnika, 1 (2007), pp.~9--12.
+
+\bibitem{tjandraatmadja2020convex}
+{\sc C.~Tjandraatmadja, R.~Anderson, J.~Huchette, W.~Ma, K.~K. Patel, and J.~P.
+  Vielma}, {\em The convex relaxation barrier, revisited: Tightened
+  single-neuron relaxations for neural network verification}, Advances in
+  Neural Information Processing Systems, 33 (2020), pp.~21675--21686.
+
+\bibitem{topkis2011supermodularity}
+{\sc D.~M. Topkis}, {\em Supermodularity and complementarity}, Princeton
+  university press, Princeton, 2011.
+
+\bibitem{Toregas72}
+{\sc C.~Toregas and C.~ReVelle}, {\em Optimal location under time or distance
+  constraints}, Papers of the Regional Science Association, 28 (1972),
+  pp.~131--143.
+
+\bibitem{towle2021intersection}
+{\sc E.~Towle and J.~Luedtke}, {\em Intersection disjunctions for reverse
+  convex sets}, Mathematics of Operations Research, 47 (2022), pp.~297--319.
+
+\bibitem{tsay2021partition}
+{\sc C.~Tsay, J.~Kronqvist, A.~Thebelt, and R.~Misener}, {\em Partition-based
+  formulations for mixed-integer optimization of trained relu neural networks},
+  Advances in Neural Information Processing Systems, 34 (2021), pp.~3068--3080.
+
+\bibitem{tuy64}
+{\sc H.~Tuy}, {\em Concave programming under linear constraints}, Soviet
+  Mathematics, 5 (1964), pp.~1437--1440.
+
+\bibitem{thy1985}
+{\sc H.~Tuy}, {\em Concave minimization under linear constraints with special
+  structure}, Optimization, 16 (1985), pp.~335--352.
+
+\bibitem{vaidya1996new}
+{\sc P.~M. Vaidya}, {\em A new algorithm for minimizing convex functions over
+  convex sets}, Mathematical programming, 73 (1996), pp.~291--341.
+
+\bibitem{vance1994solving}
+{\sc P.~H. Vance, C.~Barnhart, E.~L. Johnson, and G.~L. Nemhauser}, {\em
+  {Solving binary cutting stock problems by column generation and
+  branch-and-bound}}, Computational Optimization and Applications, 3 (1994),
+  pp.~111--130.
+
+\bibitem{vanderbeck2005}
+{\sc F.~Vanderbeck}, {\em Implementing mixed integer column generation}, in
+  Column Generation, G.~Desaulniers, J.~Desrosiers, and M.~M. Solomon, eds.,
+  Springer US, Boston, MA, 2005, pp.~331--358.
+
+\bibitem{Vanderbeck2010}
+{\sc F.~Vanderbeck and L.~A. Wolsey}, {\em Reformulation and Decomposition of
+  Integer Programs}, Springer Berlin Heidelberg, Berlin, Heidelberg, 2010,
+  pp.~431--502.
+
+\bibitem{vanier2018column}
+{\sc S.~Vanier}, {\em {Column generation for the energy-efficient in multi-hop
+  wireless networks problem}}, in 16th Cologne-Twente Workshop on Graphs and
+  Combinatorial Optimization, CTW 2018 - Proceedings of the Workshop, 2019,
+  pp.~173--174.
+
+\bibitem{vanier2018partition}
+{\sc S.~Vanier and K.~Arnaud}, {\em {New partition inequalities for the
+  unsplittable flow problem}}, in ISCO International Symposium on Combinatorial
+  Optimization, 2018.
+
+\bibitem{vielma2010}
+{\sc J.~P. Vielma, S.~Ahmed, and G.~Nemhauser}, {\em {Mixed-integer models for
+  nonseparable piecewise-linear optimization: Unifying framework and
+  extensions}}, Operations Research, 58 (2010), pp.~303--315.
+
+\bibitem{Vigerske2022Feb}
+{\sc S.~Vigerske}, {\em {MINLPLib: A Library of Mixed-Integer and Continuous
+  Nonlinear Programming Instances}}, Feb 2022.
+\newblock [Online; accessed 1. Feb. 2022].
+
+\bibitem{wang2021chance}
+{\sc S.~Wang, J.~Li, and S.~Mehrotra}, {\em Chance-constrained multiple bin
+  packing problem with an application to operating room planning}, INFORMS
+  Journal on Computing, 33 (2021), pp.~1661--1677.
+
+\bibitem{wang2021emergency}
+{\sc W.~Wang, S.~Wu, S.~Wang, L.~Zhen, and X.~Qu}, {\em Emergency facility
+  location problems in logistics: Status and perspectives}, Transportation
+  research part E: logistics and transportation review, 154 (2021), p.~102465.
+
+\bibitem{wei2020branch}
+{\sc L.~Wei, M.~Lai, A.~Lim, and Q.~Hu}, {\em {A branch-and-price algorithm for
+  the two-dimensional vector packing problem}}, European Journal of Operational
+  Research, 281 (2020), pp.~25--35.
+
+\bibitem{wei2020new}
+{\sc L.~Wei, Z.~Luo, R.~Baldacci, and A.~Lim}, {\em {A new
+  branch-and-price-and-cut algorithm for one-dimensional bin-packing
+  problems}}, INFORMS Journal on Computing, 32 (2020), pp.~428--443.
+
+\bibitem{wiegele2007biq}
+{\sc A.~Wiegele}, {\em Biq mac library—a collection of max-cut and quadratic
+  0-1 programming instances of medium size}, Preprint, 51 (2007).
+
+\bibitem{wolsey}
+{\sc L.~Wolsey}, {\em Integer Programming}, John Wiley \& Sons, 1998.
+
+\bibitem{wu2019internet}
+{\sc F.~Wu, T.~Wu, and M.~R. Yuce}, {\em An internet-of-things ({IoT}) network
+  system for connected safety and health monitoring applications}, Sensors, 19
+  (2019), p.~21.
+
+\bibitem{IoTHealthCare2017}
+{\sc T.~Wu, F.~Wu, J.~M. Redoute, and M.~R. Yuce}, {\em {An autonomous wireless
+  body area network implementation towards IoT connected healthcare
+  applications}}, IEEE Access, 5 (2017), pp.~11413--11422.
+
+\bibitem{xin2011interference}
+{\sc Y.~Xin, X.~Wang, G.~Leus, G.~Yue, and J.~Jiang}, {\em {Interference
+  management in wireless communication systems: Theory and applications}},
+  EURASIP Journal on Wireless Communications and Networking, 2010 (2011).
+
+\bibitem{xu2014global}
+{\sc G.~Xu}, {\em Global optimization of signomial geometric programming
+  problems}, European journal of operational research, 233 (2014),
+  pp.~500--510.
+
+\bibitem{liding}
+{\sc L.~Xu}, {\em Optimal location of safety landing sites}, tech. rep., LIX,
+  École Polytechnique, 2021.
+\newblock hal-03286640.
+
+\bibitem{xusignomial}
+{\sc L.~Xu, C.~D'Ambrosio, L.~Liberti, and S.~H. Vanier}, {\em On cutting
+  planes for extended formulation of signomial programming}, 2022.
+
+\bibitem{xu2022branch}
+{\sc L.~Xu and S.~Haddad~Vanier}, {\em Branch-and-price for energy optimization
+  in multi-hop wireless sensor networks}, Networks, 80 (2022), pp.~123--148.
+
+\bibitem{yang2005}
+{\sc Y.~Yang and R.~Kravets}, {\em {Contention-aware admission control for ad
+  hoc networks}}, IEEE Transactions on Mobile Computing, 4 (2005),
+  pp.~363--377.
+
+\bibitem{yaqoob2017enabling}
+{\sc I.~Yaqoob, I.~A.~T. Hashem, Y.~Mehmood, A.~Gani, S.~Mokhtar, and
+  S.~Guizani}, {\em {Enabling communication technologies for smart cities}},
+  IEEE Communications Magazine, 55 (2017), pp.~112--120.
+
+\bibitem{yu2023strong}
+{\sc Q.~Yu and S.~K{\"u}{\c{c}}{\"u}kyavuz}, {\em Strong valid inequalities for
+  a class of concave submodular minimization problems under cardinality
+  constraints}, Mathematical Programming,  (2023), pp.~1--59.
+
+\bibitem{zhang2023optimizing}
+{\sc S.~Zhang, J.~S.~C. Salazar, C.~Feldmann, D.~Walz, F.~Sandfort, M.~Mathea,
+  C.~Tsay, and R.~Misener}, {\em Optimizing over trained gnns via symmetry
+  breaking}, arXiv preprint arXiv:2305.09420,  (2023).
+
+\bibitem{zhang2018ambiguous}
+{\sc Y.~Zhang, R.~Jiang, and S.~Shen}, {\em {Ambiguous chance-constrained
+  binary programs under mean-covariance information}}, SIAM Journal on
+  Optimization, 28 (2018), pp.~2922--2944.
+
+\bibitem{zhang2020branch}
+{\sc Z.~Zhang, B.~T. Denton, and X.~Xie}, {\em {Branch and price for
+  chance-constrained bin packing}}, INFORMS Journal on Computing, 32 (2020),
+  pp.~547--564.
+
+\end{thebibliography}
